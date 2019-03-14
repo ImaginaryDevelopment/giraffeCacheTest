@@ -24,10 +24,14 @@ LaunchCount=2  TargetCount=15  WarmupCount=10
 </code></pre>
 
 <table>
-<thead><tr><th>Method</th><th>        Mean</th><th>      Error</th><th>     StdDev</th><th>Gen 0</th><th>Gen 1</th><th>Gen 2</th><th>Allocated</th>
+<thead><tr><th>Method</th><th>IterCount</th><th> Mean</th><th> Error</th><th>StdDev</th><th>Gen 0</th><th>Gen 1</th><th>Allocated</th>
 </tr>
-</thead><tbody><tr><td>Uncached</td><td>1,051,337,948.2 ns</td><td>13,321,188.054 ns</td><td>19,526,024.728 ns</td><td>40062.5000</td><td>14750.0000</td><td>2250.0000</td><td>208001024 B</td>
-</tr><tr><td>Cached</td><td>104.6 ns</td><td>1.575 ns</td><td>2.308 ns</td><td>0.0695</td><td>-</td><td>-</td><td>328 B</td>
+</thead><tbody><tr><td>Uncached</td><td>1</td><td>5,227.5 us</td><td>47.612 us</td><td>68.283 us</td><td>1945.3125</td><td>7.8125</td><td>8981.86 KB</td>
+</tr><tr><td>Cached</td><td>1</td><td>261.3 us</td><td>3.037 us</td><td>4.451 us</td><td>93.2617</td><td>1.9531</td><td>431.95 KB</td>
+</tr><tr><td>Uncached</td><td>15</td><td>42,873.4 us</td><td>868.036 us</td><td>1,299.236 us</td><td>15562.5000</td><td>62.5000</td><td>71854.33 KB</td>
+</tr><tr><td>Cached</td><td>15</td><td>368.9 us</td><td>8.068 us</td><td>11.826 us</td><td>130.3711</td><td>-</td><td>602.47 KB</td>
+</tr><tr><td>Uncached</td><td>25</td><td>68,075.9 us</td><td>1,590.125 us</td><td>2,229.133 us</td><td>25312.5000</td><td>62.5000</td><td>116763.23 KB</td>
+</tr><tr><td>Cached</td><td>25</td><td>427.1 us</td><td>5.943 us</td><td>8.711 us</td><td>156.7383</td><td>0.4883</td><td>724.27 KB</td>
 </tr></tbody></table>
 </body>
 </html>

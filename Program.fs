@@ -65,18 +65,20 @@ module Geoffrey =
 open Geoffrey
 
 type GiraffeMarks() =
+    [<Params(1,15,25)>]
+    member val IterCount = 0 with get,set
     [<Benchmark>]
-    member __.Uncached () =
-        for _ in [1..iterCount] do
+    member this.Uncached () =
+        for _ in [0..this.IterCount] do
             holes
             |> List.map (generateFull >> renderHtmlNode)
             |> ignore<string list>
             ()
         ()
     [<Benchmark>]
-    member __.Cached () =
+    member this.Cached () =
         let cache1,cache2 = (lazy(generate nodeCount), lazy(generate nodeCount))
-        for _ in [1..iterCount] do
+        for _ in [0..this.IterCount] do
             holes
             |> List.map(fun hole ->
                 glue cache1.Value (str hole) cache2.Value
