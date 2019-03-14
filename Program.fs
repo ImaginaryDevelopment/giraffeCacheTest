@@ -109,5 +109,5 @@ let defaultSwitch () =
 let main argv =
     // GiraffeMarks().Uncached()
     defaultSwitch().Run(argv, config) |>ignore
-    BenchmarkRunner.Run<SleepMarks>(config) |> ignore
+    // BenchmarkRunner.Run<SleepMarks>(config) |> ignore
     0 // return an integer exit code
