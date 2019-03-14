@@ -19,7 +19,7 @@
 
 // Validating benchmarks:
 // ***** Building 16 benchmark(s) in Parallel: Start   *****
-// ***** Done, took 00:00:20 (20.44 sec)   *****
+// ***** Done, took 00:00:22 (22.89 sec)   *****
 // **************************
 // Benchmark: SleepMarks.Thread: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=0]
 // *** Execute ***
@@ -32,95 +32,95 @@ Failed to set up high priority. Make sure you have the right permissions. Messag
 // GC=Concurrent Workstation
 // Job: NetCoreApp21(Runtime=Core, LaunchCount=2, TargetCount=15, WarmupCount=10)
 
-Pilot  1: 16 op, 186178.00 ns, 11.6361 us/op
-Pilot  2: 32 op, 28351.00 ns, 885.9688 ns/op
-Pilot  3: 64 op, 79320.00 ns, 1.2394 us/op
-Pilot  4: 128 op, 175353.00 ns, 1.3699 us/op
-Pilot  5: 256 op, 403507.00 ns, 1.5762 us/op
-Pilot  6: 512 op, 607852.00 ns, 1.1872 us/op
-Pilot  7: 1024 op, 789036.00 ns, 770.5430 ns/op
-Pilot  8: 2048 op, 1633836.00 ns, 797.7715 ns/op
-Pilot  9: 4096 op, 4045122.00 ns, 987.5786 ns/op
-Pilot 10: 8192 op, 8601685.00 ns, 1.0500 us/op
-Pilot 11: 16384 op, 15646129.00 ns, 954.9639 ns/op
-Pilot 12: 32768 op, 39101194.00 ns, 1.1933 us/op
-Pilot 13: 65536 op, 56106191.00 ns, 856.1125 ns/op
-Pilot 14: 131072 op, 113416233.00 ns, 865.2972 ns/op
-Pilot 15: 262144 op, 213660222.00 ns, 815.0491 ns/op
-Pilot 16: 524288 op, 449341759.00 ns, 857.0514 ns/op
-Pilot 17: 1048576 op, 874652316.00 ns, 834.1334 ns/op
+Pilot  1: 16 op, 187044.00 ns, 11.6903 us/op
+Pilot  2: 32 op, 27911.00 ns, 872.2188 ns/op
+Pilot  3: 64 op, 51084.00 ns, 798.1875 ns/op
+Pilot  4: 128 op, 99251.00 ns, 775.3984 ns/op
+Pilot  5: 256 op, 197395.00 ns, 771.0742 ns/op
+Pilot  6: 512 op, 669502.00 ns, 1.3076 us/op
+Pilot  7: 1024 op, 793413.00 ns, 774.8174 ns/op
+Pilot  8: 2048 op, 1656170.00 ns, 808.6768 ns/op
+Pilot  9: 4096 op, 3787697.00 ns, 924.7307 ns/op
+Pilot 10: 8192 op, 7521377.00 ns, 918.1368 ns/op
+Pilot 11: 16384 op, 14026703.00 ns, 856.1220 ns/op
+Pilot 12: 32768 op, 28394370.00 ns, 866.5274 ns/op
+Pilot 13: 65536 op, 55982507.00 ns, 854.2253 ns/op
+Pilot 14: 131072 op, 111521711.00 ns, 850.8431 ns/op
+Pilot 15: 262144 op, 220127618.00 ns, 839.7202 ns/op
+Pilot 16: 524288 op, 461676758.00 ns, 880.5785 ns/op
+Pilot 17: 1048576 op, 922010881.00 ns, 879.2981 ns/op
 
-IdleWarmup  1: 1048576 op, 1571931.00 ns, 1.4991 ns/op
-IdleWarmup  2: 1048576 op, 1569194.00 ns, 1.4965 ns/op
-IdleWarmup  3: 1048576 op, 1556383.00 ns, 1.4843 ns/op
-IdleWarmup  4: 1048576 op, 1593093.00 ns, 1.5193 ns/op
-IdleWarmup  5: 1048576 op, 1566737.00 ns, 1.4942 ns/op
-IdleWarmup  6: 1048576 op, 1566726.00 ns, 1.4941 ns/op
-IdleWarmup  7: 1048576 op, 1564701.00 ns, 1.4922 ns/op
-IdleWarmup  8: 1048576 op, 1552076.00 ns, 1.4802 ns/op
-IdleWarmup  9: 1048576 op, 1568950.00 ns, 1.4963 ns/op
-IdleWarmup 10: 1048576 op, 1610186.00 ns, 1.5356 ns/op
+IdleWarmup  1: 1048576 op, 1557591.00 ns, 1.4854 ns/op
+IdleWarmup  2: 1048576 op, 1564415.00 ns, 1.4919 ns/op
+IdleWarmup  3: 1048576 op, 1579459.00 ns, 1.5063 ns/op
+IdleWarmup  4: 1048576 op, 1568397.00 ns, 1.4957 ns/op
+IdleWarmup  5: 1048576 op, 1643756.00 ns, 1.5676 ns/op
+IdleWarmup  6: 1048576 op, 1566696.00 ns, 1.4941 ns/op
 
-IdleTarget  1: 1048576 op, 1599712.00 ns, 1.5256 ns/op
-IdleTarget  2: 1048576 op, 1641109.00 ns, 1.5651 ns/op
-IdleTarget  3: 1048576 op, 1574680.00 ns, 1.5017 ns/op
-IdleTarget  4: 1048576 op, 1567573.00 ns, 1.4950 ns/op
-IdleTarget  5: 1048576 op, 1567140.00 ns, 1.4945 ns/op
-IdleTarget  6: 1048576 op, 1550330.00 ns, 1.4785 ns/op
-IdleTarget  7: 1048576 op, 1574749.00 ns, 1.5018 ns/op
-IdleTarget  8: 1048576 op, 1556435.00 ns, 1.4843 ns/op
-IdleTarget  9: 1048576 op, 1642990.00 ns, 1.5669 ns/op
-IdleTarget 10: 1048576 op, 1571382.00 ns, 1.4986 ns/op
-IdleTarget 11: 1048576 op, 1633191.00 ns, 1.5575 ns/op
-IdleTarget 12: 1048576 op, 1590677.00 ns, 1.5170 ns/op
-IdleTarget 13: 1048576 op, 1567119.00 ns, 1.4945 ns/op
-IdleTarget 14: 1048576 op, 1569271.00 ns, 1.4966 ns/op
-IdleTarget 15: 1048576 op, 1566745.00 ns, 1.4942 ns/op
+IdleTarget  1: 1048576 op, 1570467.00 ns, 1.4977 ns/op
+IdleTarget  2: 1048576 op, 1591718.00 ns, 1.5180 ns/op
+IdleTarget  3: 1048576 op, 1568451.00 ns, 1.4958 ns/op
+IdleTarget  4: 1048576 op, 1752223.00 ns, 1.6711 ns/op
+IdleTarget  5: 1048576 op, 1745973.00 ns, 1.6651 ns/op
+IdleTarget  6: 1048576 op, 1841012.00 ns, 1.7557 ns/op
+IdleTarget  7: 1048576 op, 1745986.00 ns, 1.6651 ns/op
+IdleTarget  8: 1048576 op, 1782955.00 ns, 1.7004 ns/op
+IdleTarget  9: 1048576 op, 1738001.00 ns, 1.6575 ns/op
+IdleTarget 10: 1048576 op, 1760521.00 ns, 1.6790 ns/op
+IdleTarget 11: 1048576 op, 1828009.00 ns, 1.7433 ns/op
+IdleTarget 12: 1048576 op, 1807621.00 ns, 1.7239 ns/op
+IdleTarget 13: 1048576 op, 1581144.00 ns, 1.5079 ns/op
+IdleTarget 14: 1048576 op, 1569635.00 ns, 1.4969 ns/op
+IdleTarget 15: 1048576 op, 1566730.00 ns, 1.4942 ns/op
+IdleTarget 16: 1048576 op, 1574800.00 ns, 1.5018 ns/op
+IdleTarget 17: 1048576 op, 1576562.00 ns, 1.5035 ns/op
+IdleTarget 18: 1048576 op, 1641778.00 ns, 1.5657 ns/op
+IdleTarget 19: 1048576 op, 1685141.00 ns, 1.6071 ns/op
+IdleTarget 20: 1048576 op, 1658841.00 ns, 1.5820 ns/op
 
-MainWarmup  1: 1048576 op, 892209559.00 ns, 850.8773 ns/op
-MainWarmup  2: 1048576 op, 892958926.00 ns, 851.5920 ns/op
-MainWarmup  3: 1048576 op, 877222391.00 ns, 836.5845 ns/op
-MainWarmup  4: 1048576 op, 872165567.00 ns, 831.7619 ns/op
-MainWarmup  5: 1048576 op, 865842035.00 ns, 825.7313 ns/op
-MainWarmup  6: 1048576 op, 876170231.00 ns, 835.5810 ns/op
-MainWarmup  7: 1048576 op, 872554329.00 ns, 832.1327 ns/op
-MainWarmup  8: 1048576 op, 880891356.00 ns, 840.0835 ns/op
-MainWarmup  9: 1048576 op, 858077675.00 ns, 818.3266 ns/op
-MainWarmup 10: 1048576 op, 876520472.00 ns, 835.9151 ns/op
+MainWarmup  1: 1048576 op, 1085535810.00 ns, 1.0352 us/op
+MainWarmup  2: 1048576 op, 923618165.00 ns, 880.8309 ns/op
+MainWarmup  3: 1048576 op, 971361250.00 ns, 926.3623 ns/op
+MainWarmup  4: 1048576 op, 960363132.00 ns, 915.8737 ns/op
+MainWarmup  5: 1048576 op, 975339543.00 ns, 930.1563 ns/op
+MainWarmup  6: 1048576 op, 942553768.00 ns, 898.8893 ns/op
+MainWarmup  7: 1048576 op, 919988926.00 ns, 877.3698 ns/op
+MainWarmup  8: 1048576 op, 896921097.00 ns, 855.3706 ns/op
+MainWarmup  9: 1048576 op, 902312551.00 ns, 860.5123 ns/op
+MainWarmup 10: 1048576 op, 903371787.00 ns, 861.5225 ns/op
 
 // BeforeMainRun
-MainTarget  1: 1048576 op, 867801398.00 ns, 827.5999 ns/op
-MainTarget  2: 1048576 op, 878389327.00 ns, 837.6973 ns/op
-MainTarget  3: 1048576 op, 891786980.00 ns, 850.4743 ns/op
-MainTarget  4: 1048576 op, 878761700.00 ns, 838.0525 ns/op
-MainTarget  5: 1048576 op, 858878131.00 ns, 819.0900 ns/op
-MainTarget  6: 1048576 op, 844065256.00 ns, 804.9634 ns/op
-MainTarget  7: 1048576 op, 861749029.00 ns, 821.8279 ns/op
-MainTarget  8: 1048576 op, 877588236.00 ns, 836.9334 ns/op
-MainTarget  9: 1048576 op, 863933754.00 ns, 823.9114 ns/op
-MainTarget 10: 1048576 op, 867489272.00 ns, 827.3022 ns/op
-MainTarget 11: 1048576 op, 860592720.00 ns, 820.7252 ns/op
-MainTarget 12: 1048576 op, 874100947.00 ns, 833.6076 ns/op
-MainTarget 13: 1048576 op, 858510376.00 ns, 818.7393 ns/op
-MainTarget 14: 1048576 op, 866461814.00 ns, 826.3224 ns/op
-MainTarget 15: 1048576 op, 874589268.00 ns, 834.0733 ns/op
+MainTarget  1: 1048576 op, 908200399.00 ns, 866.1274 ns/op
+MainTarget  2: 1048576 op, 923602080.00 ns, 880.8156 ns/op
+MainTarget  3: 1048576 op, 907399242.00 ns, 865.3634 ns/op
+MainTarget  4: 1048576 op, 937581377.00 ns, 894.1473 ns/op
+MainTarget  5: 1048576 op, 912625741.00 ns, 870.3477 ns/op
+MainTarget  6: 1048576 op, 922200850.00 ns, 879.4793 ns/op
+MainTarget  7: 1048576 op, 945283341.00 ns, 901.4924 ns/op
+MainTarget  8: 1048576 op, 969917949.00 ns, 924.9858 ns/op
+MainTarget  9: 1048576 op, 909856831.00 ns, 867.7071 ns/op
+MainTarget 10: 1048576 op, 925656853.00 ns, 882.7752 ns/op
+MainTarget 11: 1048576 op, 901030950.00 ns, 859.2901 ns/op
+MainTarget 12: 1048576 op, 912410980.00 ns, 870.1429 ns/op
+MainTarget 13: 1048576 op, 907336548.00 ns, 865.3036 ns/op
+MainTarget 14: 1048576 op, 906980402.00 ns, 864.9639 ns/op
+MainTarget 15: 1048576 op, 922784561.00 ns, 880.0359 ns/op
 
 // AfterMainRun
-Result  1: 1048576 op, 866216524.47 ns, 826.0885 ns/op
-Result  2: 1048576 op, 876804453.47 ns, 836.1859 ns/op
-Result  3: 1048576 op, 890202106.47 ns, 848.9629 ns/op
-Result  4: 1048576 op, 877176826.47 ns, 836.5410 ns/op
-Result  5: 1048576 op, 857293257.47 ns, 817.5786 ns/op
-Result  6: 1048576 op, 842480382.47 ns, 803.4519 ns/op
-Result  7: 1048576 op, 860164155.47 ns, 820.3165 ns/op
-Result  8: 1048576 op, 876003362.47 ns, 835.4219 ns/op
-Result  9: 1048576 op, 862348880.47 ns, 822.4000 ns/op
-Result 10: 1048576 op, 865904398.47 ns, 825.7908 ns/op
-Result 11: 1048576 op, 859007846.47 ns, 819.2137 ns/op
-Result 12: 1048576 op, 872516073.47 ns, 832.0962 ns/op
-Result 13: 1048576 op, 856925502.47 ns, 817.2278 ns/op
-Result 14: 1048576 op, 864876940.47 ns, 824.8109 ns/op
-Result 15: 1048576 op, 873004394.47 ns, 832.5619 ns/op
+Result  1: 1048576 op, 906521020.60 ns, 864.5258 ns/op
+Result  2: 1048576 op, 921922701.60 ns, 879.2140 ns/op
+Result  3: 1048576 op, 905719863.60 ns, 863.7618 ns/op
+Result  4: 1048576 op, 935901998.60 ns, 892.5457 ns/op
+Result  5: 1048576 op, 910946362.60 ns, 868.7461 ns/op
+Result  6: 1048576 op, 920521471.60 ns, 877.8777 ns/op
+Result  7: 1048576 op, 943603962.60 ns, 899.8909 ns/op
+Result  8: 1048576 op, 908177452.60 ns, 866.1055 ns/op
+Result  9: 1048576 op, 923977474.60 ns, 881.1736 ns/op
+Result 10: 1048576 op, 899351571.60 ns, 857.6885 ns/op
+Result 11: 1048576 op, 910731601.60 ns, 868.5413 ns/op
+Result 12: 1048576 op, 905657169.60 ns, 863.7020 ns/op
+Result 13: 1048576 op, 905301023.60 ns, 863.3623 ns/op
+Result 14: 1048576 op, 921105182.60 ns, 878.4344 ns/op
 GC:  0 0 0 0 1048576
 
 // AfterAll
@@ -133,91 +133,1334 @@ Failed to set up high priority. Make sure you have the right permissions. Messag
 // GC=Concurrent Workstation
 // Job: NetCoreApp21(Runtime=Core, LaunchCount=2, TargetCount=15, WarmupCount=10)
 
-Pilot  1: 16 op, 182680.00 ns, 11.4175 us/op
-Pilot  2: 32 op, 57082.00 ns, 1.7838 us/op
-Pilot  3: 64 op, 50037.00 ns, 781.8281 ns/op
-Pilot  4: 128 op, 112043.00 ns, 875.3359 ns/op
-Pilot  5: 256 op, 211316.00 ns, 825.4531 ns/op
-Pilot  6: 512 op, 402517.00 ns, 786.1660 ns/op
-Pilot  7: 1024 op, 825622.00 ns, 806.2715 ns/op
-Pilot  8: 2048 op, 1692448.00 ns, 826.3906 ns/op
-Pilot  9: 4096 op, 3165797.00 ns, 772.8997 ns/op
-Pilot 10: 8192 op, 6627164.00 ns, 808.9800 ns/op
-Pilot 11: 16384 op, 13011610.00 ns, 794.1656 ns/op
-Pilot 12: 32768 op, 26922469.00 ns, 821.6086 ns/op
-Pilot 13: 65536 op, 52816694.00 ns, 805.9188 ns/op
-Pilot 14: 131072 op, 113923132.00 ns, 869.1645 ns/op
-Pilot 15: 262144 op, 212509462.00 ns, 810.6593 ns/op
-Pilot 16: 524288 op, 425716619.00 ns, 811.9900 ns/op
-Pilot 17: 1048576 op, 860095293.00 ns, 820.2508 ns/op
+Pilot  1: 16 op, 225102.00 ns, 14.0689 us/op
+Pilot  2: 32 op, 27491.00 ns, 859.0938 ns/op
+Pilot  3: 64 op, 50497.00 ns, 789.0156 ns/op
+Pilot  4: 128 op, 98875.00 ns, 772.4609 ns/op
+Pilot  5: 256 op, 196420.00 ns, 767.2656 ns/op
+Pilot  6: 512 op, 677496.00 ns, 1.3232 us/op
+Pilot  7: 1024 op, 1178009.00 ns, 1.1504 us/op
+Pilot  8: 2048 op, 1593825.00 ns, 778.2349 ns/op
+Pilot  9: 4096 op, 3237759.00 ns, 790.4685 ns/op
+Pilot 10: 8192 op, 9683025.00 ns, 1.1820 us/op
+Pilot 11: 16384 op, 15587692.00 ns, 951.3972 ns/op
+Pilot 12: 32768 op, 27374597.00 ns, 835.4064 ns/op
+Pilot 13: 65536 op, 57013980.00 ns, 869.9643 ns/op
+Pilot 14: 131072 op, 109692365.00 ns, 836.8863 ns/op
+Pilot 15: 262144 op, 235063158.00 ns, 896.6948 ns/op
+Pilot 16: 524288 op, 464746731.00 ns, 886.4340 ns/op
+Pilot 17: 1048576 op, 908175099.00 ns, 866.1033 ns/op
 
-IdleWarmup  1: 1048576 op, 1571682.00 ns, 1.4989 ns/op
-IdleWarmup  2: 1048576 op, 1566721.00 ns, 1.4941 ns/op
-IdleWarmup  3: 1048576 op, 1574955.00 ns, 1.5020 ns/op
-IdleWarmup  4: 1048576 op, 1595140.00 ns, 1.5212 ns/op
-IdleWarmup  5: 1048576 op, 1552666.00 ns, 1.4807 ns/op
-IdleWarmup  6: 1048576 op, 1575904.00 ns, 1.5029 ns/op
-IdleWarmup  7: 1048576 op, 1569330.00 ns, 1.4966 ns/op
+IdleWarmup  1: 1048576 op, 1566797.00 ns, 1.4942 ns/op
+IdleWarmup  2: 1048576 op, 1583615.00 ns, 1.5103 ns/op
+IdleWarmup  3: 1048576 op, 1566714.00 ns, 1.4941 ns/op
+IdleWarmup  4: 1048576 op, 1568599.00 ns, 1.4959 ns/op
+IdleWarmup  5: 1048576 op, 1566365.00 ns, 1.4938 ns/op
+IdleWarmup  6: 1048576 op, 1598586.00 ns, 1.5245 ns/op
 
-IdleTarget  1: 1048576 op, 1569847.00 ns, 1.4971 ns/op
-IdleTarget  2: 1048576 op, 1580445.00 ns, 1.5072 ns/op
-IdleTarget  3: 1048576 op, 1569809.00 ns, 1.4971 ns/op
-IdleTarget  4: 1048576 op, 1566871.00 ns, 1.4943 ns/op
-IdleTarget  5: 1048576 op, 1594477.00 ns, 1.5206 ns/op
-IdleTarget  6: 1048576 op, 1566830.00 ns, 1.4942 ns/op
-IdleTarget  7: 1048576 op, 1556396.00 ns, 1.4843 ns/op
-IdleTarget  8: 1048576 op, 1553765.00 ns, 1.4818 ns/op
-IdleTarget  9: 1048576 op, 1566653.00 ns, 1.4941 ns/op
-IdleTarget 10: 1048576 op, 1566728.00 ns, 1.4941 ns/op
-IdleTarget 11: 1048576 op, 1566694.00 ns, 1.4941 ns/op
-IdleTarget 12: 1048576 op, 1556145.00 ns, 1.4841 ns/op
-IdleTarget 13: 1048576 op, 1572932.00 ns, 1.5001 ns/op
-IdleTarget 14: 1048576 op, 1576267.00 ns, 1.5032 ns/op
-IdleTarget 15: 1048576 op, 1566729.00 ns, 1.4941 ns/op
+IdleTarget  1: 1048576 op, 1628093.00 ns, 1.5527 ns/op
+IdleTarget  2: 1048576 op, 1652021.00 ns, 1.5755 ns/op
+IdleTarget  3: 1048576 op, 1661085.00 ns, 1.5841 ns/op
+IdleTarget  4: 1048576 op, 1570622.00 ns, 1.4979 ns/op
+IdleTarget  5: 1048576 op, 1571337.00 ns, 1.4985 ns/op
+IdleTarget  6: 1048576 op, 1567013.00 ns, 1.4944 ns/op
+IdleTarget  7: 1048576 op, 1566716.00 ns, 1.4941 ns/op
+IdleTarget  8: 1048576 op, 1566700.00 ns, 1.4941 ns/op
+IdleTarget  9: 1048576 op, 1564869.00 ns, 1.4924 ns/op
+IdleTarget 10: 1048576 op, 1616842.00 ns, 1.5419 ns/op
+IdleTarget 11: 1048576 op, 1612463.00 ns, 1.5378 ns/op
+IdleTarget 12: 1048576 op, 1566737.00 ns, 1.4942 ns/op
+IdleTarget 13: 1048576 op, 1559437.00 ns, 1.4872 ns/op
+IdleTarget 14: 1048576 op, 1566704.00 ns, 1.4941 ns/op
+IdleTarget 15: 1048576 op, 1552143.00 ns, 1.4802 ns/op
 
-MainWarmup  1: 1048576 op, 864871694.00 ns, 824.8059 ns/op
-MainWarmup  2: 1048576 op, 860619636.00 ns, 820.7508 ns/op
-MainWarmup  3: 1048576 op, 857161373.00 ns, 817.4528 ns/op
-MainWarmup  4: 1048576 op, 904701774.00 ns, 862.7908 ns/op
-MainWarmup  5: 1048576 op, 899101689.00 ns, 857.4502 ns/op
-MainWarmup  6: 1048576 op, 879412169.00 ns, 838.6728 ns/op
-MainWarmup  7: 1048576 op, 921482411.00 ns, 878.7941 ns/op
-MainWarmup  8: 1048576 op, 960892357.00 ns, 916.3784 ns/op
-MainWarmup  9: 1048576 op, 917598832.00 ns, 875.0904 ns/op
-MainWarmup 10: 1048576 op, 971529204.00 ns, 926.5224 ns/op
+MainWarmup  1: 1048576 op, 916005959.00 ns, 873.5714 ns/op
+MainWarmup  2: 1048576 op, 951217507.00 ns, 907.1517 ns/op
+MainWarmup  3: 1048576 op, 904902314.00 ns, 862.9821 ns/op
+MainWarmup  4: 1048576 op, 906748439.00 ns, 864.7427 ns/op
+MainWarmup  5: 1048576 op, 944570331.00 ns, 900.8125 ns/op
+MainWarmup  6: 1048576 op, 907635616.00 ns, 865.5888 ns/op
+MainWarmup  7: 1048576 op, 908569006.00 ns, 866.4789 ns/op
+MainWarmup  8: 1048576 op, 892982666.00 ns, 851.6146 ns/op
+MainWarmup  9: 1048576 op, 942276440.00 ns, 898.6248 ns/op
+MainWarmup 10: 1048576 op, 932228996.00 ns, 889.0429 ns/op
 
 // BeforeMainRun
-MainTarget  1: 1048576 op, 910488231.00 ns, 868.3092 ns/op
-MainTarget  2: 1048576 op, 899098894.00 ns, 857.4475 ns/op
-MainTarget  3: 1048576 op, 877219316.00 ns, 836.5815 ns/op
-MainTarget  4: 1048576 op, 884024389.00 ns, 843.0714 ns/op
-MainTarget  5: 1048576 op, 867266545.00 ns, 827.0898 ns/op
-MainTarget  6: 1048576 op, 895124706.00 ns, 853.6574 ns/op
-MainTarget  7: 1048576 op, 894564558.00 ns, 853.1232 ns/op
-MainTarget  8: 1048576 op, 916674195.00 ns, 874.2086 ns/op
-MainTarget  9: 1048576 op, 925840110.00 ns, 882.9499 ns/op
-MainTarget 10: 1048576 op, 907758733.00 ns, 865.7062 ns/op
-MainTarget 11: 1048576 op, 909326505.00 ns, 867.2013 ns/op
-MainTarget 12: 1048576 op, 950674693.00 ns, 906.6340 ns/op
-MainTarget 13: 1048576 op, 917601960.00 ns, 875.0934 ns/op
-MainTarget 14: 1048576 op, 1018690932.00 ns, 971.4994 ns/op
-MainTarget 15: 1048576 op, 894898770.00 ns, 853.4420 ns/op
+MainTarget  1: 1048576 op, 904411309.00 ns, 862.5138 ns/op
+MainTarget  2: 1048576 op, 911387952.00 ns, 869.1673 ns/op
+MainTarget  3: 1048576 op, 904336314.00 ns, 862.4423 ns/op
+MainTarget  4: 1048576 op, 918695334.00 ns, 876.1361 ns/op
+MainTarget  5: 1048576 op, 897333550.00 ns, 855.7640 ns/op
+MainTarget  6: 1048576 op, 908966036.00 ns, 866.8576 ns/op
+MainTarget  7: 1048576 op, 907168677.00 ns, 865.1435 ns/op
+MainTarget  8: 1048576 op, 904736985.00 ns, 862.8244 ns/op
+MainTarget  9: 1048576 op, 905928830.00 ns, 863.9611 ns/op
+MainTarget 10: 1048576 op, 913355928.00 ns, 871.0441 ns/op
+MainTarget 11: 1048576 op, 933507697.00 ns, 890.2623 ns/op
+MainTarget 12: 1048576 op, 889156573.00 ns, 847.9658 ns/op
+MainTarget 13: 1048576 op, 997815249.00 ns, 951.5908 ns/op
+MainTarget 14: 1048576 op, 895385356.00 ns, 853.9060 ns/op
+MainTarget 15: 1048576 op, 895728850.00 ns, 854.2336 ns/op
 
 // AfterMainRun
-Result  1: 1048576 op, 908919525.13 ns, 866.8132 ns/op
-Result  2: 1048576 op, 897530188.13 ns, 855.9515 ns/op
-Result  3: 1048576 op, 875650610.13 ns, 835.0855 ns/op
-Result  4: 1048576 op, 882455683.13 ns, 841.5753 ns/op
-Result  5: 1048576 op, 865697839.13 ns, 825.5938 ns/op
-Result  6: 1048576 op, 893556000.13 ns, 852.1614 ns/op
-Result  7: 1048576 op, 892995852.13 ns, 851.6272 ns/op
-Result  8: 1048576 op, 915105489.13 ns, 872.7126 ns/op
-Result  9: 1048576 op, 924271404.13 ns, 881.4539 ns/op
-Result 10: 1048576 op, 906190027.13 ns, 864.2102 ns/op
-Result 11: 1048576 op, 907757799.13 ns, 865.7053 ns/op
-Result 12: 1048576 op, 949105987.13 ns, 905.1380 ns/op
-Result 13: 1048576 op, 916033254.13 ns, 873.5974 ns/op
-Result 14: 1048576 op, 893330064.13 ns, 851.9459 ns/op
+Result  1: 1048576 op, 902823123.53 ns, 860.9992 ns/op
+Result  2: 1048576 op, 909799766.53 ns, 867.6527 ns/op
+Result  3: 1048576 op, 902748128.53 ns, 860.9277 ns/op
+Result  4: 1048576 op, 917107148.53 ns, 874.6215 ns/op
+Result  5: 1048576 op, 895745364.53 ns, 854.2493 ns/op
+Result  6: 1048576 op, 907377850.53 ns, 865.3430 ns/op
+Result  7: 1048576 op, 905580491.53 ns, 863.6289 ns/op
+Result  8: 1048576 op, 903148799.53 ns, 861.3098 ns/op
+Result  9: 1048576 op, 904340644.53 ns, 862.4464 ns/op
+Result 10: 1048576 op, 911767742.53 ns, 869.5295 ns/op
+Result 11: 1048576 op, 931919511.53 ns, 888.7477 ns/op
+Result 12: 1048576 op, 887568387.53 ns, 846.4512 ns/op
+Result 13: 1048576 op, 893797170.53 ns, 852.3914 ns/op
+Result 14: 1048576 op, 894140664.53 ns, 852.7190 ns/op
 GC:  0 0 0 0 1048576
 
-// Aft
+// AfterAll
+
+Mean = 868.0924 ns, StdErr = 2.3327 ns (0.27%); N = 28, StdDev = 12.3437 ns
+Min = 846.4512 ns, Q1 = 861.1545 ns, Median = 864.9344 ns, Q3 = 876.2496 ns, Max = 899.8909 ns
+IQR = 15.0951 ns, LowerFence = 838.5119 ns, UpperFence = 898.8922 ns
+ConfidenceInterval = [859.4855 ns; 876.6993 ns] (CI 99.9%), Margin = 8.6069 ns (0.99% of Mean)
+Skewness = 0.73, Kurtosis = 3.11
+
+
+// **************************
+// Benchmark: SleepMarks.Task: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=0]
+// *** Execute ***
+// Launch: 1 / 2
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.1.5 (Framework 4.6.26919.02), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: NetCoreApp21(Runtime=Core, LaunchCount=2, TargetCount=15, WarmupCount=10)
+
+Pilot  1: 16 op, 171457.00 ns, 10.7161 us/op
+Pilot  2: 32 op, 3186.00 ns, 99.5625 ns/op
+Pilot  3: 64 op, 1347.00 ns, 21.0469 ns/op
+Pilot  4: 128 op, 2047.00 ns, 15.9922 ns/op
+Pilot  5: 256 op, 3626.00 ns, 14.1641 ns/op
+Pilot  6: 512 op, 6629.00 ns, 12.9473 ns/op
+Pilot  7: 1024 op, 12721.00 ns, 12.4229 ns/op
+Pilot  8: 2048 op, 24954.00 ns, 12.1846 ns/op
+Pilot  9: 4096 op, 49106.00 ns, 11.9888 ns/op
+Pilot 10: 8192 op, 98192.00 ns, 11.9863 ns/op
+Pilot 11: 16384 op, 195306.00 ns, 11.9205 ns/op
+Pilot 12: 32768 op, 389966.00 ns, 11.9008 ns/op
+Pilot 13: 65536 op, 779346.00 ns, 11.8919 ns/op
+Pilot 14: 131072 op, 1558602.00 ns, 11.8912 ns/op
+Pilot 15: 262144 op, 3140685.00 ns, 11.9808 ns/op
+Pilot 16: 524288 op, 6293516.00 ns, 12.0039 ns/op
+Pilot 17: 1048576 op, 12790794.00 ns, 12.1983 ns/op
+Pilot 18: 2097152 op, 27199278.00 ns, 12.9696 ns/op
+Pilot 19: 4194304 op, 52416886.00 ns, 12.4972 ns/op
+Pilot 20: 8388608 op, 105594289.00 ns, 12.5878 ns/op
+Pilot 21: 16777216 op, 210521008.00 ns, 12.5480 ns/op
+Pilot 22: 33554432 op, 420295905.00 ns, 12.5258 ns/op
+Pilot 23: 67108864 op, 841289186.00 ns, 12.5362 ns/op
+
+IdleWarmup  1: 67108864 op, 102335576.00 ns, 1.5249 ns/op
+IdleWarmup  2: 67108864 op, 102865578.00 ns, 1.5328 ns/op
+IdleWarmup  3: 67108864 op, 105052958.00 ns, 1.5654 ns/op
+IdleWarmup  4: 67108864 op, 106681370.00 ns, 1.5897 ns/op
+IdleWarmup  5: 67108864 op, 102056923.00 ns, 1.5208 ns/op
+IdleWarmup  6: 67108864 op, 104149947.00 ns, 1.5520 ns/op
+IdleWarmup  7: 67108864 op, 106364034.00 ns, 1.5849 ns/op
+IdleWarmup  8: 67108864 op, 105242187.00 ns, 1.5682 ns/op
+
+IdleTarget  1: 67108864 op, 103215942.00 ns, 1.5380 ns/op
+IdleTarget  2: 67108864 op, 101723501.00 ns, 1.5158 ns/op
+IdleTarget  3: 67108864 op, 108320287.00 ns, 1.6141 ns/op
+IdleTarget  4: 67108864 op, 103334491.00 ns, 1.5398 ns/op
+IdleTarget  5: 67108864 op, 102103864.00 ns, 1.5215 ns/op
+IdleTarget  6: 67108864 op, 104071676.00 ns, 1.5508 ns/op
+IdleTarget  7: 67108864 op, 105677212.00 ns, 1.5747 ns/op
+IdleTarget  8: 67108864 op, 102587727.00 ns, 1.5287 ns/op
+IdleTarget  9: 67108864 op, 103360521.00 ns, 1.5402 ns/op
+IdleTarget 10: 67108864 op, 104656671.00 ns, 1.5595 ns/op
+IdleTarget 11: 67108864 op, 103724109.00 ns, 1.5456 ns/op
+IdleTarget 12: 67108864 op, 105507377.00 ns, 1.5722 ns/op
+IdleTarget 13: 67108864 op, 102194877.00 ns, 1.5228 ns/op
+IdleTarget 14: 67108864 op, 104147437.00 ns, 1.5519 ns/op
+IdleTarget 15: 67108864 op, 104456413.00 ns, 1.5565 ns/op
+
+MainWarmup  1: 67108864 op, 826190810.00 ns, 12.3112 ns/op
+MainWarmup  2: 67108864 op, 820502345.00 ns, 12.2264 ns/op
+MainWarmup  3: 67108864 op, 824045281.00 ns, 12.2792 ns/op
+MainWarmup  4: 67108864 op, 867114208.00 ns, 12.9210 ns/op
+MainWarmup  5: 67108864 op, 824131464.00 ns, 12.2805 ns/op
+MainWarmup  6: 67108864 op, 827991727.00 ns, 12.3380 ns/op
+MainWarmup  7: 67108864 op, 859042466.00 ns, 12.8007 ns/op
+MainWarmup  8: 67108864 op, 855808535.00 ns, 12.7525 ns/op
+MainWarmup  9: 67108864 op, 835119143.00 ns, 12.4442 ns/op
+MainWarmup 10: 67108864 op, 840425443.00 ns, 12.5233 ns/op
+
+// BeforeMainRun
+MainTarget  1: 67108864 op, 832464340.00 ns, 12.4047 ns/op
+MainTarget  2: 67108864 op, 881199539.00 ns, 13.1309 ns/op
+MainTarget  3: 67108864 op, 935133202.00 ns, 13.9346 ns/op
+MainTarget  4: 67108864 op, 878032760.00 ns, 13.0837 ns/op
+MainTarget  5: 67108864 op, 867243401.00 ns, 12.9229 ns/op
+MainTarget  6: 67108864 op, 848395022.00 ns, 12.6421 ns/op
+MainTarget  7: 67108864 op, 860830148.00 ns, 12.8274 ns/op
+MainTarget  8: 67108864 op, 859168767.00 ns, 12.8026 ns/op
+MainTarget  9: 67108864 op, 864455769.00 ns, 12.8814 ns/op
+MainTarget 10: 67108864 op, 846604146.00 ns, 12.6154 ns/op
+MainTarget 11: 67108864 op, 847978797.00 ns, 12.6359 ns/op
+MainTarget 12: 67108864 op, 837443796.00 ns, 12.4789 ns/op
+MainTarget 13: 67108864 op, 884560815.00 ns, 13.1810 ns/op
+MainTarget 14: 67108864 op, 842168965.00 ns, 12.5493 ns/op
+MainTarget 15: 67108864 op, 909111121.00 ns, 13.5468 ns/op
+
+// AfterMainRun
+Result  1: 67108864 op, 728525533.00 ns, 10.8559 ns/op
+Result  2: 67108864 op, 777260732.00 ns, 11.5821 ns/op
+Result  3: 67108864 op, 774093953.00 ns, 11.5349 ns/op
+Result  4: 67108864 op, 763304594.00 ns, 11.3741 ns/op
+Result  5: 67108864 op, 744456215.00 ns, 11.0933 ns/op
+Result  6: 67108864 op, 756891341.00 ns, 11.2786 ns/op
+Result  7: 67108864 op, 755229960.00 ns, 11.2538 ns/op
+Result  8: 67108864 op, 760516962.00 ns, 11.3326 ns/op
+Result  9: 67108864 op, 742665339.00 ns, 11.0666 ns/op
+Result 10: 67108864 op, 744039990.00 ns, 11.0871 ns/op
+Result 11: 67108864 op, 733504989.00 ns, 10.9301 ns/op
+Result 12: 67108864 op, 780622008.00 ns, 11.6322 ns/op
+Result 13: 67108864 op, 738230158.00 ns, 11.0005 ns/op
+Result 14: 67108864 op, 805172314.00 ns, 11.9980 ns/op
+GC:  0 0 0 0 67108864
+
+// AfterAll
+// Launch: 2 / 2
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.1.5 (Framework 4.6.26919.02), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: NetCoreApp21(Runtime=Core, LaunchCount=2, TargetCount=15, WarmupCount=10)
+
+Pilot  1: 16 op, 160331.00 ns, 10.0207 us/op
+Pilot  2: 32 op, 2637.00 ns, 82.4063 ns/op
+Pilot  3: 64 op, 1239.00 ns, 19.3594 ns/op
+Pilot  4: 128 op, 1939.00 ns, 15.1484 ns/op
+Pilot  5: 256 op, 4476.00 ns, 17.4844 ns/op
+Pilot  6: 512 op, 6630.00 ns, 12.9492 ns/op
+Pilot  7: 1024 op, 12758.00 ns, 12.4590 ns/op
+Pilot  8: 2048 op, 24868.00 ns, 12.1426 ns/op
+Pilot  9: 4096 op, 49204.00 ns, 12.0127 ns/op
+Pilot 10: 8192 op, 98389.00 ns, 12.0104 ns/op
+Pilot 11: 16384 op, 195305.00 ns, 11.9205 ns/op
+Pilot 12: 32768 op, 408072.00 ns, 12.4534 ns/op
+Pilot 13: 65536 op, 779551.00 ns, 11.8950 ns/op
+Pilot 14: 131072 op, 1558506.00 ns, 11.8905 ns/op
+Pilot 15: 262144 op, 3124918.00 ns, 11.9206 ns/op
+Pilot 16: 524288 op, 6579052.00 ns, 12.5485 ns/op
+Pilot 17: 1048576 op, 13625301.00 ns, 12.9941 ns/op
+Pilot 18: 2097152 op, 27147033.00 ns, 12.9447 ns/op
+Pilot 19: 4194304 op, 53577680.00 ns, 12.7739 ns/op
+Pilot 20: 8388608 op, 105460532.00 ns, 12.5719 ns/op
+Pilot 21: 16777216 op, 210568162.00 ns, 12.5508 ns/op
+Pilot 22: 33554432 op, 462564967.00 ns, 13.7855 ns/op
+Pilot 23: 67108864 op, 880199981.00 ns, 13.1160 ns/op
+
+IdleWarmup  1: 67108864 op, 103757898.00 ns, 1.5461 ns/op
+IdleWarmup  2: 67108864 op, 101856335.00 ns, 1.5178 ns/op
+IdleWarmup  3: 67108864 op, 102517161.00 ns, 1.5276 ns/op
+IdleWarmup  4: 67108864 op, 102432722.00 ns, 1.5264 ns/op
+IdleWarmup  5: 67108864 op, 102166338.00 ns, 1.5224 ns/op
+IdleWarmup  6: 67108864 op, 103918740.00 ns, 1.5485 ns/op
+IdleWarmup  7: 67108864 op, 102574364.00 ns, 1.5285 ns/op
+
+IdleTarget  1: 67108864 op, 101742658.00 ns, 1.5161 ns/op
+IdleTarget  2: 67108864 op, 101835116.00 ns, 1.5175 ns/op
+IdleTarget  3: 67108864 op, 104088981.00 ns, 1.5510 ns/op
+IdleTarget  4: 67108864 op, 103408330.00 ns, 1.5409 ns/op
+IdleTarget  5: 67108864 op, 103126097.00 ns, 1.5367 ns/op
+IdleTarget  6: 67108864 op, 103118837.00 ns, 1.5366 ns/op
+IdleTarget  7: 67108864 op, 102322253.00 ns, 1.5247 ns/op
+IdleTarget  8: 67108864 op, 105424798.00 ns, 1.5710 ns/op
+IdleTarget  9: 67108864 op, 104125606.00 ns, 1.5516 ns/op
+IdleTarget 10: 67108864 op, 102614392.00 ns, 1.5291 ns/op
+IdleTarget 11: 67108864 op, 103310061.00 ns, 1.5394 ns/op
+IdleTarget 12: 67108864 op, 102185739.00 ns, 1.5227 ns/op
+IdleTarget 13: 67108864 op, 103701942.00 ns, 1.5453 ns/op
+IdleTarget 14: 67108864 op, 102090396.00 ns, 1.5213 ns/op
+IdleTarget 15: 67108864 op, 102016363.00 ns, 1.5202 ns/op
+
+MainWarmup  1: 67108864 op, 832286732.00 ns, 12.4020 ns/op
+MainWarmup  2: 67108864 op, 823065329.00 ns, 12.2646 ns/op
+MainWarmup  3: 67108864 op, 817921171.00 ns, 12.1880 ns/op
+MainWarmup  4: 67108864 op, 827336288.00 ns, 12.3283 ns/op
+MainWarmup  5: 67108864 op, 834094786.00 ns, 12.4290 ns/op
+MainWarmup  6: 67108864 op, 867868223.00 ns, 12.9322 ns/op
+MainWarmup  7: 67108864 op, 845550689.00 ns, 12.5997 ns/op
+MainWarmup  8: 67108864 op, 863445318.00 ns, 12.8663 ns/op
+MainWarmup  9: 67108864 op, 828253104.00 ns, 12.3419 ns/op
+MainWarmup 10: 67108864 op, 833638489.00 ns, 12.4222 ns/op
+
+// BeforeMainRun
+MainTarget  1: 67108864 op, 834316972.00 ns, 12.4323 ns/op
+MainTarget  2: 67108864 op, 855832535.00 ns, 12.7529 ns/op
+MainTarget  3: 67108864 op, 833985438.00 ns, 12.4274 ns/op
+MainTarget  4: 67108864 op, 834585118.00 ns, 12.4363 ns/op
+MainTarget  5: 67108864 op, 844883405.00 ns, 12.5897 ns/op
+MainTarget  6: 67108864 op, 879573502.00 ns, 13.1067 ns/op
+MainTarget  7: 67108864 op, 848109897.00 ns, 12.6378 ns/op
+MainTarget  8: 67108864 op, 865413764.00 ns, 12.8957 ns/op
+MainTarget  9: 67108864 op, 853109655.00 ns, 12.7123 ns/op
+MainTarget 10: 67108864 op, 837237714.00 ns, 12.4758 ns/op
+MainTarget 11: 67108864 op, 842485659.00 ns, 12.5540 ns/op
+MainTarget 12: 67108864 op, 869458325.00 ns, 12.9559 ns/op
+MainTarget 13: 67108864 op, 838340686.00 ns, 12.4922 ns/op
+MainTarget 14: 67108864 op, 838561258.00 ns, 12.4955 ns/op
+MainTarget 15: 67108864 op, 834982926.00 ns, 12.4422 ns/op
+
+// AfterMainRun
+Result  1: 67108864 op, 731309534.07 ns, 10.8974 ns/op
+Result  2: 67108864 op, 752825097.07 ns, 11.2180 ns/op
+Result  3: 67108864 op, 730978000.07 ns, 10.8924 ns/op
+Result  4: 67108864 op, 731577680.07 ns, 10.9014 ns/op
+Result  5: 67108864 op, 741875967.07 ns, 11.0548 ns/op
+Result  6: 67108864 op, 776566064.07 ns, 11.5717 ns/op
+Result  7: 67108864 op, 745102459.07 ns, 11.1029 ns/op
+Result  8: 67108864 op, 762406326.07 ns, 11.3607 ns/op
+Result  9: 67108864 op, 750102217.07 ns, 11.1774 ns/op
+Result 10: 67108864 op, 734230276.07 ns, 10.9409 ns/op
+Result 11: 67108864 op, 739478221.07 ns, 11.0191 ns/op
+Result 12: 67108864 op, 766450887.07 ns, 11.4210 ns/op
+Result 13: 67108864 op, 735333248.07 ns, 10.9573 ns/op
+Result 14: 67108864 op, 735553820.07 ns, 10.9606 ns/op
+Result 15: 67108864 op, 731975488.07 ns, 10.9073 ns/op
+GC:  0 0 0 0 67108864
+
+// AfterAll
+
+Mean = 11.1863 ns, StdErr = 0.0524 ns (0.47%); N = 29, StdDev = 0.2821 ns
+Min = 10.8559 ns, Q1 = 10.9491 ns, Median = 11.0933 ns, Q3 = 11.3674 ns, Max = 11.9980 ns
+IQR = 0.4183 ns, LowerFence = 10.3216 ns, UpperFence = 11.9949 ns
+ConfidenceInterval = [10.9939 ns; 11.3787 ns] (CI 99.9%), Margin = 0.1924 ns (1.72% of Mean)
+Skewness = 0.94, Kurtosis = 3.25
+
+
+// **************************
+// Benchmark: SleepMarks.AsyncToTask: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=0]
+// *** Execute ***
+// Launch: 1 / 2
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.1.5 (Framework 4.6.26919.02), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: NetCoreApp21(Runtime=Core, LaunchCount=2, TargetCount=15, WarmupCount=10)
+
+Pilot  1: 16 op, 610822.00 ns, 38.1764 us/op
+Pilot  2: 32 op, 789677.00 ns, 24.6774 us/op
+Pilot  3: 64 op, 1507385.00 ns, 23.5529 us/op
+Pilot  4: 128 op, 2266469.00 ns, 17.7068 us/op
+Pilot  5: 256 op, 4033447.00 ns, 15.7557 us/op
+Pilot  6: 512 op, 7537684.00 ns, 14.7220 us/op
+Pilot  7: 1024 op, 13862176.00 ns, 13.5373 us/op
+Pilot  8: 2048 op, 29581898.00 ns, 14.4443 us/op
+Pilot  9: 4096 op, 57315774.00 ns, 13.9931 us/op
+Pilot 10: 8192 op, 107324994.00 ns, 13.1012 us/op
+Pilot 11: 16384 op, 213052022.00 ns, 13.0037 us/op
+Pilot 12: 32768 op, 477130813.00 ns, 14.5609 us/op
+Pilot 13: 65536 op, 1041878897.00 ns, 15.8978 us/op
+
+IdleWarmup  1: 65536 op, 302279.00 ns, 4.6124 ns/op
+IdleWarmup  2: 65536 op, 321062.00 ns, 4.8990 ns/op
+IdleWarmup  3: 65536 op, 328435.00 ns, 5.0115 ns/op
+IdleWarmup  4: 65536 op, 309570.00 ns, 4.7237 ns/op
+IdleWarmup  5: 65536 op, 309603.00 ns, 4.7242 ns/op
+IdleWarmup  6: 65536 op, 308269.00 ns, 4.7038 ns/op
+
+IdleTarget  1: 65536 op, 309690.00 ns, 4.7255 ns/op
+IdleTarget  2: 65536 op, 310059.00 ns, 4.7311 ns/op
+IdleTarget  3: 65536 op, 319163.00 ns, 4.8700 ns/op
+IdleTarget  4: 65536 op, 366674.00 ns, 5.5950 ns/op
+IdleTarget  5: 65536 op, 310525.00 ns, 4.7382 ns/op
+IdleTarget  6: 65536 op, 308378.00 ns, 4.7055 ns/op
+IdleTarget  7: 65536 op, 311063.00 ns, 4.7464 ns/op
+IdleTarget  8: 65536 op, 337026.00 ns, 5.1426 ns/op
+IdleTarget  9: 65536 op, 354470.00 ns, 5.4088 ns/op
+IdleTarget 10: 65536 op, 309585.00 ns, 4.7239 ns/op
+IdleTarget 11: 65536 op, 308304.00 ns, 4.7043 ns/op
+IdleTarget 12: 65536 op, 313404.00 ns, 4.7822 ns/op
+IdleTarget 13: 65536 op, 332219.00 ns, 5.0693 ns/op
+IdleTarget 14: 65536 op, 318938.00 ns, 4.8666 ns/op
+IdleTarget 15: 65536 op, 319667.00 ns, 4.8777 ns/op
+
+MainWarmup  1: 65536 op, 969782710.00 ns, 14.7977 us/op
+MainWarmup  2: 65536 op, 1005209691.00 ns, 15.3383 us/op
+MainWarmup  3: 65536 op, 926780271.00 ns, 14.1415 us/op
+MainWarmup  4: 65536 op, 1063323863.00 ns, 16.2250 us/op
+MainWarmup  5: 65536 op, 925267351.00 ns, 14.1185 us/op
+MainWarmup  6: 65536 op, 937018431.00 ns, 14.2978 us/op
+MainWarmup  7: 65536 op, 933908757.00 ns, 14.2503 us/op
+MainWarmup  8: 65536 op, 931297923.00 ns, 14.2105 us/op
+MainWarmup  9: 65536 op, 923882702.00 ns, 14.0973 us/op
+MainWarmup 10: 65536 op, 878240333.00 ns, 13.4009 us/op
+
+// BeforeMainRun
+MainTarget  1: 65536 op, 959407445.00 ns, 14.6394 us/op
+MainTarget  2: 65536 op, 919973893.00 ns, 14.0377 us/op
+MainTarget  3: 65536 op, 914253367.00 ns, 13.9504 us/op
+MainTarget  4: 65536 op, 930849193.00 ns, 14.2036 us/op
+MainTarget  5: 65536 op, 911825525.00 ns, 13.9134 us/op
+MainTarget  6: 65536 op, 892906733.00 ns, 13.6247 us/op
+MainTarget  7: 65536 op, 1103241141.00 ns, 16.8341 us/op
+MainTarget  8: 65536 op, 907496776.00 ns, 13.8473 us/op
+MainTarget  9: 65536 op, 932720260.00 ns, 14.2322 us/op
+MainTarget 10: 65536 op, 886293082.00 ns, 13.5238 us/op
+MainTarget 11: 65536 op, 917998645.00 ns, 14.0075 us/op
+MainTarget 12: 65536 op, 950782220.00 ns, 14.5078 us/op
+MainTarget 13: 65536 op, 893123836.00 ns, 13.6280 us/op
+MainTarget 14: 65536 op, 886157659.00 ns, 13.5217 us/op
+MainTarget 15: 65536 op, 889577109.00 ns, 13.5739 us/op
+
+// AfterMainRun
+Result  1: 65536 op, 959085500.67 ns, 14.6345 us/op
+Result  2: 65536 op, 919651948.67 ns, 14.0328 us/op
+Result  3: 65536 op, 913931422.67 ns, 13.9455 us/op
+Result  4: 65536 op, 930527248.67 ns, 14.1987 us/op
+Result  5: 65536 op, 911503580.67 ns, 13.9084 us/op
+Result  6: 65536 op, 892584788.67 ns, 13.6198 us/op
+Result  7: 65536 op, 907174831.67 ns, 13.8424 us/op
+Result  8: 65536 op, 932398315.67 ns, 14.2273 us/op
+Result  9: 65536 op, 885971137.67 ns, 13.5188 us/op
+Result 10: 65536 op, 917676700.67 ns, 14.0026 us/op
+Result 11: 65536 op, 950460275.67 ns, 14.5029 us/op
+Result 12: 65536 op, 892801891.67 ns, 13.6231 us/op
+Result 13: 65536 op, 885835714.67 ns, 13.5168 us/op
+Result 14: 65536 op, 889255164.67 ns, 13.5690 us/op
+GC:  17 0 0 39883320 65536
+
+// AfterAll
+// Launch: 2 / 2
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.1.5 (Framework 4.6.26919.02), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: NetCoreApp21(Runtime=Core, LaunchCount=2, TargetCount=15, WarmupCount=10)
+
+Pilot  1: 16 op, 551434.00 ns, 34.4646 us/op
+Pilot  2: 32 op, 663750.00 ns, 20.7422 us/op
+Pilot  3: 64 op, 1178826.00 ns, 18.4192 us/op
+Pilot  4: 128 op, 2315349.00 ns, 18.0887 us/op
+Pilot  5: 256 op, 3614919.00 ns, 14.1208 us/op
+Pilot  6: 512 op, 23544928.00 ns, 45.9862 us/op
+Pilot  7: 1024 op, 14739861.00 ns, 14.3944 us/op
+Pilot  8: 2048 op, 28215560.00 ns, 13.7771 us/op
+Pilot  9: 4096 op, 58165374.00 ns, 14.2005 us/op
+Pilot 10: 8192 op, 105457719.00 ns, 12.8733 us/op
+Pilot 11: 16384 op, 232684684.00 ns, 14.2019 us/op
+Pilot 12: 32768 op, 458871216.00 ns, 14.0036 us/op
+Pilot 13: 65536 op, 879358315.00 ns, 13.4179 us/op
+
+IdleWarmup  1: 65536 op, 303259.00 ns, 4.6274 ns/op
+IdleWarmup  2: 65536 op, 300733.00 ns, 4.5888 ns/op
+IdleWarmup  3: 65536 op, 299448.00 ns, 4.5692 ns/op
+IdleWarmup  4: 65536 op, 299476.00 ns, 4.5696 ns/op
+IdleWarmup  5: 65536 op, 300778.00 ns, 4.5895 ns/op
+IdleWarmup  6: 65536 op, 300748.00 ns, 4.5891 ns/op
+IdleWarmup  7: 65536 op, 299502.00 ns, 4.5700 ns/op
+IdleWarmup  8: 65536 op, 318402.00 ns, 4.8584 ns/op
+IdleWarmup  9: 65536 op, 308312.00 ns, 4.7045 ns/op
+
+IdleTarget  1: 65536 op, 310490.00 ns, 4.7377 ns/op
+IdleTarget  2: 65536 op, 309547.00 ns, 4.7233 ns/op
+IdleTarget  3: 65536 op, 309589.00 ns, 4.7240 ns/op
+IdleTarget  4: 65536 op, 309671.00 ns, 4.7252 ns/op
+IdleTarget  5: 65536 op, 309529.00 ns, 4.7230 ns/op
+IdleTarget  6: 65536 op, 318725.00 ns, 4.8634 ns/op
+IdleTarget  7: 65536 op, 309556.00 ns, 4.7234 ns/op
+IdleTarget  8: 65536 op, 309598.00 ns, 4.7241 ns/op
+IdleTarget  9: 65536 op, 308262.00 ns, 4.7037 ns/op
+IdleTarget 10: 65536 op, 321557.00 ns, 4.9066 ns/op
+IdleTarget 11: 65536 op, 309538.00 ns, 4.7232 ns/op
+IdleTarget 12: 65536 op, 309537.00 ns, 4.7232 ns/op
+IdleTarget 13: 65536 op, 322074.00 ns, 4.9145 ns/op
+IdleTarget 14: 65536 op, 310865.00 ns, 4.7434 ns/op
+IdleTarget 15: 65536 op, 309572.00 ns, 4.7237 ns/op
+
+MainWarmup  1: 65536 op, 899596985.00 ns, 13.7268 us/op
+MainWarmup  2: 65536 op, 872604527.00 ns, 13.3149 us/op
+MainWarmup  3: 65536 op, 877311175.00 ns, 13.3867 us/op
+MainWarmup  4: 65536 op, 1037713745.00 ns, 15.8343 us/op
+MainWarmup  5: 65536 op, 983556324.00 ns, 15.0079 us/op
+MainWarmup  6: 65536 op, 929834722.00 ns, 14.1882 us/op
+MainWarmup  7: 65536 op, 894220533.00 ns, 13.6447 us/op
+MainWarmup  8: 65536 op, 963723189.00 ns, 14.7052 us/op
+MainWarmup  9: 65536 op, 1007327717.00 ns, 15.3706 us/op
+MainWarmup 10: 65536 op, 926814629.00 ns, 14.1421 us/op
+
+// BeforeMainRun
+MainTarget  1: 65536 op, 901235297.00 ns, 13.7518 us/op
+MainTarget  2: 65536 op, 943795308.00 ns, 14.4012 us/op
+MainTarget  3: 65536 op, 925842088.00 ns, 14.1272 us/op
+MainTarget  4: 65536 op, 894485863.00 ns, 13.6488 us/op
+MainTarget  5: 65536 op, 934047349.00 ns, 14.2524 us/op
+MainTarget  6: 65536 op, 891187659.00 ns, 13.5984 us/op
+MainTarget  7: 65536 op, 924723297.00 ns, 14.1102 us/op
+MainTarget  8: 65536 op, 934042999.00 ns, 14.2524 us/op
+MainTarget  9: 65536 op, 872413058.00 ns, 13.3120 us/op
+MainTarget 10: 65536 op, 888068918.00 ns, 13.5509 us/op
+MainTarget 11: 65536 op, 938497613.00 ns, 14.3203 us/op
+MainTarget 12: 65536 op, 892227922.00 ns, 13.6143 us/op
+MainTarget 13: 65536 op, 894663205.00 ns, 13.6515 us/op
+MainTarget 14: 65536 op, 925089675.00 ns, 14.1157 us/op
+MainTarget 15: 65536 op, 940544956.00 ns, 14.3516 us/op
+
+// AfterMainRun
+Result  1: 65536 op, 900923423.00 ns, 13.7470 us/op
+Result  2: 65536 op, 943483434.00 ns, 14.3964 us/op
+Result  3: 65536 op, 925530214.00 ns, 14.1225 us/op
+Result  4: 65536 op, 894173989.00 ns, 13.6440 us/op
+Result  5: 65536 op, 933735475.00 ns, 14.2477 us/op
+Result  6: 65536 op, 890875785.00 ns, 13.5937 us/op
+Result  7: 65536 op, 924411423.00 ns, 14.1054 us/op
+Result  8: 65536 op, 933731125.00 ns, 14.2476 us/op
+Result  9: 65536 op, 872101184.00 ns, 13.3072 us/op
+Result 10: 65536 op, 887757044.00 ns, 13.5461 us/op
+Result 11: 65536 op, 938185739.00 ns, 14.3156 us/op
+Result 12: 65536 op, 891916048.00 ns, 13.6096 us/op
+Result 13: 65536 op, 894351331.00 ns, 13.6467 us/op
+Result 14: 65536 op, 924777801.00 ns, 14.1110 us/op
+Result 15: 65536 op, 940233082.00 ns, 14.3468 us/op
+GC:  17 0 0 39893688 65536
+
+// AfterAll
+
+Mean = 13.9355 us, StdErr = 0.0653 us (0.47%); N = 29, StdDev = 0.3514 us
+Min = 13.3072 us, Q1 = 13.6147 us, Median = 13.9455 us, Q3 = 14.2374 us, Max = 14.6345 us
+IQR = 0.6228 us, LowerFence = 12.6805 us, UpperFence = 15.1716 us
+ConfidenceInterval = [13.6958 us; 14.1753 us] (CI 99.9%), Margin = 0.2397 us (1.72% of Mean)
+Skewness = 0.14, Kurtosis = 1.78
+
+
+// **************************
+// Benchmark: SleepMarks.AsyncToSync: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=0]
+// *** Execute ***
+// Launch: 1 / 2
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.1.5 (Framework 4.6.26919.02), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: NetCoreApp21(Runtime=Core, LaunchCount=2, TargetCount=15, WarmupCount=10)
+
+Pilot  1: 16 op, 778825.00 ns, 48.6766 us/op
+Pilot  2: 32 op, 1016439.00 ns, 31.7637 us/op
+Pilot  3: 64 op, 1331828.00 ns, 20.8098 us/op
+Pilot  4: 128 op, 2727373.00 ns, 21.3076 us/op
+Pilot  5: 256 op, 4955869.00 ns, 19.3589 us/op
+Pilot  6: 512 op, 10376645.00 ns, 20.2669 us/op
+Pilot  7: 1024 op, 21803798.00 ns, 21.2928 us/op
+Pilot  8: 2048 op, 41209789.00 ns, 20.1220 us/op
+Pilot  9: 4096 op, 83748422.00 ns, 20.4464 us/op
+Pilot 10: 8192 op, 157234331.00 ns, 19.1936 us/op
+Pilot 11: 16384 op, 310741059.00 ns, 18.9661 us/op
+Pilot 12: 32768 op, 643597655.00 ns, 19.6410 us/op
+
+IdleWarmup  1: 32768 op, 57302.00 ns, 1.7487 ns/op
+IdleWarmup  2: 32768 op, 54927.00 ns, 1.6762 ns/op
+IdleWarmup  3: 32768 op, 54250.00 ns, 1.6556 ns/op
+IdleWarmup  4: 32768 op, 54250.00 ns, 1.6556 ns/op
+IdleWarmup  5: 32768 op, 54221.00 ns, 1.6547 ns/op
+IdleWarmup  6: 32768 op, 54241.00 ns, 1.6553 ns/op
+IdleWarmup  7: 32768 op, 54229.00 ns, 1.6549 ns/op
+
+IdleTarget  1: 32768 op, 63292.00 ns, 1.9315 ns/op
+IdleTarget  2: 32768 op, 54884.00 ns, 1.6749 ns/op
+IdleTarget  3: 32768 op, 54909.00 ns, 1.6757 ns/op
+IdleTarget  4: 32768 op, 56636.00 ns, 1.7284 ns/op
+IdleTarget  5: 32768 op, 56517.00 ns, 1.7248 ns/op
+IdleTarget  6: 32768 op, 55859.00 ns, 1.7047 ns/op
+IdleTarget  7: 32768 op, 56524.00 ns, 1.7250 ns/op
+IdleTarget  8: 32768 op, 55872.00 ns, 1.7051 ns/op
+IdleTarget  9: 32768 op, 56442.00 ns, 1.7225 ns/op
+IdleTarget 10: 32768 op, 56539.00 ns, 1.7254 ns/op
+IdleTarget 11: 32768 op, 58756.00 ns, 1.7931 ns/op
+IdleTarget 12: 32768 op, 56537.00 ns, 1.7254 ns/op
+IdleTarget 13: 32768 op, 56601.00 ns, 1.7273 ns/op
+IdleTarget 14: 32768 op, 75921.00 ns, 2.3169 ns/op
+IdleTarget 15: 32768 op, 58300.00 ns, 1.7792 ns/op
+
+MainWarmup  1: 32768 op, 618778779.00 ns, 18.8836 us/op
+MainWarmup  2: 32768 op, 602412777.00 ns, 18.3842 us/op
+MainWarmup  3: 32768 op, 623348170.00 ns, 19.0231 us/op
+MainWarmup  4: 32768 op, 600931709.00 ns, 18.3390 us/op
+MainWarmup  5: 32768 op, 635979037.00 ns, 19.4085 us/op
+MainWarmup  6: 32768 op, 606353693.00 ns, 18.5044 us/op
+MainWarmup  7: 32768 op, 586715324.00 ns, 17.9051 us/op
+MainWarmup  8: 32768 op, 630507406.00 ns, 19.2416 us/op
+MainWarmup  9: 32768 op, 620325836.00 ns, 18.9308 us/op
+MainWarmup 10: 32768 op, 612556608.00 ns, 18.6937 us/op
+
+// BeforeMainRun
+MainTarget  1: 32768 op, 622347677.00 ns, 18.9925 us/op
+MainTarget  2: 32768 op, 597981558.00 ns, 18.2489 us/op
+MainTarget  3: 32768 op, 668031587.00 ns, 20.3867 us/op
+MainTarget  4: 32768 op, 713283537.00 ns, 21.7677 us/op
+MainTarget  5: 32768 op, 656400935.00 ns, 20.0318 us/op
+MainTarget  6: 32768 op, 637308494.00 ns, 19.4491 us/op
+MainTarget  7: 32768 op, 635956220.00 ns, 19.4078 us/op
+MainTarget  8: 32768 op, 646691346.00 ns, 19.7355 us/op
+MainTarget  9: 32768 op, 633595165.00 ns, 19.3358 us/op
+MainTarget 10: 32768 op, 693190804.00 ns, 21.1545 us/op
+MainTarget 11: 32768 op, 673860374.00 ns, 20.5646 us/op
+MainTarget 12: 32768 op, 634624462.00 ns, 19.3672 us/op
+MainTarget 13: 32768 op, 652718628.00 ns, 19.9194 us/op
+MainTarget 14: 32768 op, 619732562.00 ns, 18.9127 us/op
+MainTarget 15: 32768 op, 642088886.00 ns, 19.5950 us/op
+
+// AfterMainRun
+Result  1: 32768 op, 622289437.73 ns, 18.9908 us/op
+Result  2: 32768 op, 597923318.73 ns, 18.2472 us/op
+Result  3: 32768 op, 667973347.73 ns, 20.3849 us/op
+Result  4: 32768 op, 713225297.73 ns, 21.7659 us/op
+Result  5: 32768 op, 656342695.73 ns, 20.0300 us/op
+Result  6: 32768 op, 637250254.73 ns, 19.4473 us/op
+Result  7: 32768 op, 635897980.73 ns, 19.4061 us/op
+Result  8: 32768 op, 646633106.73 ns, 19.7337 us/op
+Result  9: 32768 op, 633536925.73 ns, 19.3340 us/op
+Result 10: 32768 op, 693132564.73 ns, 21.1527 us/op
+Result 11: 32768 op, 673802134.73 ns, 20.5628 us/op
+Result 12: 32768 op, 634566222.73 ns, 19.3654 us/op
+Result 13: 32768 op, 652660388.73 ns, 19.9176 us/op
+Result 14: 32768 op, 619674322.73 ns, 18.9110 us/op
+Result 15: 32768 op, 642030646.73 ns, 19.5932 us/op
+GC:  9 0 0 40107960 32768
+
+// AfterAll
+// Launch: 2 / 2
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.1.5 (Framework 4.6.26919.02), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: NetCoreApp21(Runtime=Core, LaunchCount=2, TargetCount=15, WarmupCount=10)
+
+Pilot  1: 16 op, 756795.00 ns, 47.2997 us/op
+Pilot  2: 32 op, 1353929.00 ns, 42.3103 us/op
+Pilot  3: 64 op, 1799891.00 ns, 28.1233 us/op
+Pilot  4: 128 op, 2120207.00 ns, 16.5641 us/op
+Pilot  5: 256 op, 4484627.00 ns, 17.5181 us/op
+Pilot  6: 512 op, 10043743.00 ns, 19.6167 us/op
+Pilot  7: 1024 op, 19116672.00 ns, 18.6686 us/op
+Pilot  8: 2048 op, 37757315.00 ns, 18.4362 us/op
+Pilot  9: 4096 op, 77939706.00 ns, 19.0282 us/op
+Pilot 10: 8192 op, 159856636.00 ns, 19.5137 us/op
+Pilot 11: 16384 op, 310638810.00 ns, 18.9599 us/op
+Pilot 12: 32768 op, 646726345.00 ns, 19.7365 us/op
+
+IdleWarmup  1: 32768 op, 59602.00 ns, 1.8189 ns/op
+IdleWarmup  2: 32768 op, 54868.00 ns, 1.6744 ns/op
+IdleWarmup  3: 32768 op, 53333.00 ns, 1.6276 ns/op
+IdleWarmup  4: 32768 op, 53301.00 ns, 1.6266 ns/op
+IdleWarmup  5: 32768 op, 51882.00 ns, 1.5833 ns/op
+IdleWarmup  6: 32768 op, 63918.00 ns, 1.9506 ns/op
+IdleWarmup  7: 32768 op, 50482.00 ns, 1.5406 ns/op
+IdleWarmup  8: 32768 op, 49197.00 ns, 1.5014 ns/op
+IdleWarmup  9: 32768 op, 49285.00 ns, 1.5041 ns/op
+IdleWarmup 10: 32768 op, 49251.00 ns, 1.5030 ns/op
+
+IdleTarget  1: 32768 op, 49695.00 ns, 1.5166 ns/op
+IdleTarget  2: 32768 op, 49360.00 ns, 1.5063 ns/op
+IdleTarget  3: 32768 op, 49371.00 ns, 1.5067 ns/op
+IdleTarget  4: 32768 op, 49368.00 ns, 1.5066 ns/op
+IdleTarget  5: 32768 op, 49277.00 ns, 1.5038 ns/op
+IdleTarget  6: 32768 op, 49243.00 ns, 1.5028 ns/op
+IdleTarget  7: 32768 op, 49260.00 ns, 1.5033 ns/op
+IdleTarget  8: 32768 op, 49281.00 ns, 1.5039 ns/op
+IdleTarget  9: 32768 op, 63002.00 ns, 1.9227 ns/op
+IdleTarget 10: 32768 op, 50578.00 ns, 1.5435 ns/op
+IdleTarget 11: 32768 op, 49334.00 ns, 1.5056 ns/op
+IdleTarget 12: 32768 op, 49263.00 ns, 1.5034 ns/op
+IdleTarget 13: 32768 op, 49259.00 ns, 1.5033 ns/op
+IdleTarget 14: 32768 op, 49269.00 ns, 1.5036 ns/op
+IdleTarget 15: 32768 op, 49275.00 ns, 1.5038 ns/op
+
+MainWarmup  1: 32768 op, 632918370.00 ns, 19.3151 us/op
+MainWarmup  2: 32768 op, 612519894.00 ns, 18.6926 us/op
+MainWarmup  3: 32768 op, 639514201.00 ns, 19.5164 us/op
+MainWarmup  4: 32768 op, 661004111.00 ns, 20.1722 us/op
+MainWarmup  5: 32768 op, 612972395.00 ns, 18.7064 us/op
+MainWarmup  6: 32768 op, 616711270.00 ns, 18.8205 us/op
+MainWarmup  7: 32768 op, 806170416.00 ns, 24.6024 us/op
+MainWarmup  8: 32768 op, 632533238.00 ns, 19.3034 us/op
+MainWarmup  9: 32768 op, 645737402.00 ns, 19.7063 us/op
+MainWarmup 10: 32768 op, 641355318.00 ns, 19.5726 us/op
+
+// BeforeMainRun
+MainTarget  1: 32768 op, 623341740.00 ns, 19.0229 us/op
+MainTarget  2: 32768 op, 634619757.00 ns, 19.3671 us/op
+MainTarget  3: 32768 op, 630540091.00 ns, 19.2426 us/op
+MainTarget  4: 32768 op, 638016931.00 ns, 19.4707 us/op
+MainTarget  5: 32768 op, 635229307.00 ns, 19.3857 us/op
+MainTarget  6: 32768 op, 646343456.00 ns, 19.7248 us/op
+MainTarget  7: 32768 op, 615145635.00 ns, 18.7728 us/op
+MainTarget  8: 32768 op, 638846001.00 ns, 19.4960 us/op
+MainTarget  9: 32768 op, 607048480.00 ns, 18.5256 us/op
+MainTarget 10: 32768 op, 620486794.00 ns, 18.9358 us/op
+MainTarget 11: 32768 op, 609159402.00 ns, 18.5901 us/op
+MainTarget 12: 32768 op, 620323003.00 ns, 18.9308 us/op
+MainTarget 13: 32768 op, 597059654.00 ns, 18.2208 us/op
+MainTarget 14: 32768 op, 611862543.00 ns, 18.6726 us/op
+MainTarget 15: 32768 op, 647371914.00 ns, 19.7562 us/op
+
+// AfterMainRun
+Result  1: 32768 op, 623291417.67 ns, 19.0213 us/op
+Result  2: 32768 op, 634569434.67 ns, 19.3655 us/op
+Result  3: 32768 op, 630489768.67 ns, 19.2410 us/op
+Result  4: 32768 op, 637966608.67 ns, 19.4692 us/op
+Result  5: 32768 op, 635178984.67 ns, 19.3841 us/op
+Result  6: 32768 op, 646293133.67 ns, 19.7233 us/op
+Result  7: 32768 op, 615095312.67 ns, 18.7712 us/op
+Result  8: 32768 op, 638795678.67 ns, 19.4945 us/op
+Result  9: 32768 op, 606998157.67 ns, 18.5241 us/op
+Result 10: 32768 op, 620436471.67 ns, 18.9342 us/op
+Result 11: 32768 op, 609109079.67 ns, 18.5885 us/op
+Result 12: 32768 op, 620272680.67 ns, 18.9292 us/op
+Result 13: 32768 op, 597009331.67 ns, 18.2193 us/op
+Result 14: 32768 op, 611812220.67 ns, 18.6710 us/op
+Result 15: 32768 op, 647321591.67 ns, 19.7547 us/op
+GC:  9 0 0 40107960 32768
+
+// AfterAll
+
+Mean = 19.4311 us, StdErr = 0.1443 us (0.74%); N = 30, StdDev = 0.7904 us
+Min = 18.2193 us, Q1 = 18.9292 us, Median = 19.3748 us, Q3 = 19.7337 us, Max = 21.7659 us
+IQR = 0.8045 us, LowerFence = 17.7225 us, UpperFence = 20.9404 us
+ConfidenceInterval = [18.9030 us; 19.9592 us] (CI 99.9%), Margin = 0.5281 us (2.72% of Mean)
+Skewness = 0.98, Kurtosis = 4.04
+
+
+// **************************
+// Benchmark: SleepMarks.Thread: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=1]
+// *** Execute ***
+// Launch: 1 / 2
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.1.5 (Framework 4.6.26919.02), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: NetCoreApp21(Runtime=Core, LaunchCount=2, TargetCount=15, WarmupCount=10)
+
+Pilot  1: 16 op, 19877296.00 ns, 1.2423 ms/op
+Pilot  2: 32 op, 38442677.00 ns, 1.2013 ms/op
+Pilot  3: 64 op, 76896613.00 ns, 1.2015 ms/op
+Pilot  4: 128 op, 154871981.00 ns, 1.2099 ms/op
+Pilot  5: 256 op, 306288643.00 ns, 1.1964 ms/op
+Pilot  6: 512 op, 616614530.00 ns, 1.2043 ms/op
+
+IdleWarmup  1: 512 op, 3668.00 ns, 7.1641 ns/op
+IdleWarmup  2: 512 op, 1036.00 ns, 2.0234 ns/op
+IdleWarmup  3: 512 op, 1013.00 ns, 1.9785 ns/op
+IdleWarmup  4: 512 op, 1007.00 ns, 1.9668 ns/op
+IdleWarmup  5: 512 op, 1041.00 ns, 2.0332 ns/op
+IdleWarmup  6: 512 op, 1040.00 ns, 2.0313 ns/op
+IdleWarmup  7: 512 op, 1009.00 ns, 1.9707 ns/op
+IdleWarmup  8: 512 op, 1015.00 ns, 1.9824 ns/op
+IdleWarmup  9: 512 op, 1044.00 ns, 2.0391 ns/op
+IdleWarmup 10: 512 op, 1020.00 ns, 1.9922 ns/op
+
+IdleTarget  1: 512 op, 1055.00 ns, 2.0605 ns/op
+IdleTarget  2: 512 op, 1050.00 ns, 2.0508 ns/op
+IdleTarget  3: 512 op, 1095.00 ns, 2.1387 ns/op
+IdleTarget  4: 512 op, 1212.00 ns, 2.3672 ns/op
+IdleTarget  5: 512 op, 1078.00 ns, 2.1055 ns/op
+IdleTarget  6: 512 op, 1038.00 ns, 2.0273 ns/op
+IdleTarget  7: 512 op, 1044.00 ns, 2.0391 ns/op
+IdleTarget  8: 512 op, 1078.00 ns, 2.1055 ns/op
+IdleTarget  9: 512 op, 1044.00 ns, 2.0391 ns/op
+IdleTarget 10: 512 op, 1069.00 ns, 2.0879 ns/op
+IdleTarget 11: 512 op, 1041.00 ns, 2.0332 ns/op
+IdleTarget 12: 512 op, 1032.00 ns, 2.0156 ns/op
+IdleTarget 13: 512 op, 1037.00 ns, 2.0254 ns/op
+IdleTarget 14: 512 op, 1038.00 ns, 2.0273 ns/op
+IdleTarget 15: 512 op, 1076.00 ns, 2.1016 ns/op
+
+MainWarmup  1: 512 op, 620979872.00 ns, 1.2129 ms/op
+MainWarmup  2: 512 op, 614522565.00 ns, 1.2002 ms/op
+MainWarmup  3: 512 op, 616983519.00 ns, 1.2050 ms/op
+MainWarmup  4: 512 op, 614093076.00 ns, 1.1994 ms/op
+MainWarmup  5: 512 op, 616357194.00 ns, 1.2038 ms/op
+MainWarmup  6: 512 op, 623483305.00 ns, 1.2177 ms/op
+MainWarmup  7: 512 op, 617332590.00 ns, 1.2057 ms/op
+MainWarmup  8: 512 op, 623135395.00 ns, 1.2171 ms/op
+MainWarmup  9: 512 op, 623048529.00 ns, 1.2169 ms/op
+MainWarmup 10: 512 op, 619810938.00 ns, 1.2106 ms/op
+
+// BeforeMainRun
+MainTarget  1: 512 op, 619735652.00 ns, 1.2104 ms/op
+MainTarget  2: 512 op, 616151467.00 ns, 1.2034 ms/op
+MainTarget  3: 512 op, 613846484.00 ns, 1.1989 ms/op
+MainTarget  4: 512 op, 618134246.00 ns, 1.2073 ms/op
+MainTarget  5: 512 op, 608403384.00 ns, 1.1883 ms/op
+MainTarget  6: 512 op, 621561179.00 ns, 1.2140 ms/op
+MainTarget  7: 512 op, 617324801.00 ns, 1.2057 ms/op
+MainTarget  8: 512 op, 613889566.00 ns, 1.1990 ms/op
+MainTarget  9: 512 op, 619671143.00 ns, 1.2103 ms/op
+MainTarget 10: 512 op, 614394186.00 ns, 1.2000 ms/op
+MainTarget 11: 512 op, 622573401.00 ns, 1.2160 ms/op
+MainTarget 12: 512 op, 624653266.00 ns, 1.2200 ms/op
+MainTarget 13: 512 op, 617696252.00 ns, 1.2064 ms/op
+MainTarget 14: 512 op, 635921353.00 ns, 1.2420 ms/op
+MainTarget 15: 512 op, 623185993.00 ns, 1.2172 ms/op
+
+// AfterMainRun
+Result  1: 512 op, 619734586.20 ns, 1.2104 ms/op
+Result  2: 512 op, 616150401.20 ns, 1.2034 ms/op
+Result  3: 512 op, 613845418.20 ns, 1.1989 ms/op
+Result  4: 512 op, 618133180.20 ns, 1.2073 ms/op
+Result  5: 512 op, 608402318.20 ns, 1.1883 ms/op
+Result  6: 512 op, 621560113.20 ns, 1.2140 ms/op
+Result  7: 512 op, 617323735.20 ns, 1.2057 ms/op
+Result  8: 512 op, 613888500.20 ns, 1.1990 ms/op
+Result  9: 512 op, 619670077.20 ns, 1.2103 ms/op
+Result 10: 512 op, 614393120.20 ns, 1.2000 ms/op
+Result 11: 512 op, 622572335.20 ns, 1.2160 ms/op
+Result 12: 512 op, 624652200.20 ns, 1.2200 ms/op
+Result 13: 512 op, 617695186.20 ns, 1.2064 ms/op
+Result 14: 512 op, 623184927.20 ns, 1.2172 ms/op
+GC:  0 0 0 0 512
+
+// AfterAll
+// Launch: 2 / 2
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.1.5 (Framework 4.6.26919.02), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: NetCoreApp21(Runtime=Core, LaunchCount=2, TargetCount=15, WarmupCount=10)
+
+Pilot  1: 16 op, 18192126.00 ns, 1.1370 ms/op
+Pilot  2: 32 op, 39672144.00 ns, 1.2398 ms/op
+Pilot  3: 64 op, 79491405.00 ns, 1.2421 ms/op
+Pilot  4: 128 op, 152939778.00 ns, 1.1948 ms/op
+Pilot  5: 256 op, 305052904.00 ns, 1.1916 ms/op
+Pilot  6: 512 op, 621650947.00 ns, 1.2142 ms/op
+
+IdleWarmup  1: 512 op, 3631.00 ns, 7.0918 ns/op
+IdleWarmup  2: 512 op, 1167.00 ns, 2.2793 ns/op
+IdleWarmup  3: 512 op, 1107.00 ns, 2.1621 ns/op
+IdleWarmup  4: 512 op, 1117.00 ns, 2.1816 ns/op
+IdleWarmup  5: 512 op, 1092.00 ns, 2.1328 ns/op
+IdleWarmup  6: 512 op, 1074.00 ns, 2.0977 ns/op
+IdleWarmup  7: 512 op, 1098.00 ns, 2.1445 ns/op
+IdleWarmup  8: 512 op, 1077.00 ns, 2.1035 ns/op
+
+IdleTarget  1: 512 op, 1070.00 ns, 2.0898 ns/op
+IdleTarget  2: 512 op, 1092.00 ns, 2.1328 ns/op
+IdleTarget  3: 512 op, 1149.00 ns, 2.2441 ns/op
+IdleTarget  4: 512 op, 1347.00 ns, 2.6309 ns/op
+IdleTarget  5: 512 op, 1090.00 ns, 2.1289 ns/op
+IdleTarget  6: 512 op, 1079.00 ns, 2.1074 ns/op
+IdleTarget  7: 512 op, 1232.00 ns, 2.4063 ns/op
+IdleTarget  8: 512 op, 1101.00 ns, 2.1504 ns/op
+IdleTarget  9: 512 op, 1097.00 ns, 2.1426 ns/op
+IdleTarget 10: 512 op, 1102.00 ns, 2.1523 ns/op
+IdleTarget 11: 512 op, 1079.00 ns, 2.1074 ns/op
+IdleTarget 12: 512 op, 1073.00 ns, 2.0957 ns/op
+IdleTarget 13: 512 op, 1112.00 ns, 2.1719 ns/op
+IdleTarget 14: 512 op, 1056.00 ns, 2.0625 ns/op
+IdleTarget 15: 512 op, 1105.00 ns, 2.1582 ns/op
+
+MainWarmup  1: 512 op, 615470010.00 ns, 1.2021 ms/op
+MainWarmup  2: 512 op, 617833367.00 ns, 1.2067 ms/op
+MainWarmup  3: 512 op, 621300398.00 ns, 1.2135 ms/op
+MainWarmup  4: 512 op, 612278517.00 ns, 1.1959 ms/op
+MainWarmup  5: 512 op, 620585952.00 ns, 1.2121 ms/op
+MainWarmup  6: 512 op, 604430286.00 ns, 1.1805 ms/op
+MainWarmup  7: 512 op, 615623506.00 ns, 1.2024 ms/op
+MainWarmup  8: 512 op, 621238978.00 ns, 1.2134 ms/op
+MainWarmup  9: 512 op, 617677811.00 ns, 1.2064 ms/op
+MainWarmup 10: 512 op, 620479027.00 ns, 1.2119 ms/op
+
+// BeforeMainRun
+MainTarget  1: 512 op, 617146986.00 ns, 1.2054 ms/op
+MainTarget  2: 512 op, 621220970.00 ns, 1.2133 ms/op
+MainTarget  3: 512 op, 616859060.00 ns, 1.2048 ms/op
+MainTarget  4: 512 op, 611436830.00 ns, 1.1942 ms/op
+MainTarget  5: 512 op, 620654540.00 ns, 1.2122 ms/op
+MainTarget  6: 512 op, 622481642.00 ns, 1.2158 ms/op
+MainTarget  7: 512 op, 616276031.00 ns, 1.2037 ms/op
+MainTarget  8: 512 op, 618485451.00 ns, 1.2080 ms/op
+MainTarget  9: 512 op, 617059945.00 ns, 1.2052 ms/op
+MainTarget 10: 512 op, 617789575.00 ns, 1.2066 ms/op
+MainTarget 11: 512 op, 619628837.00 ns, 1.2102 ms/op
+MainTarget 12: 512 op, 613986391.00 ns, 1.1992 ms/op
+MainTarget 13: 512 op, 616303186.00 ns, 1.2037 ms/op
+MainTarget 14: 512 op, 609377029.00 ns, 1.1902 ms/op
+MainTarget 15: 512 op, 616355252.00 ns, 1.2038 ms/op
+
+// AfterMainRun
+Result  1: 512 op, 617145867.07 ns, 1.2054 ms/op
+Result  2: 512 op, 621219851.07 ns, 1.2133 ms/op
+Result  3: 512 op, 616857941.07 ns, 1.2048 ms/op
+Result  4: 512 op, 611435711.07 ns, 1.1942 ms/op
+Result  5: 512 op, 620653421.07 ns, 1.2122 ms/op
+Result  6: 512 op, 622480523.07 ns, 1.2158 ms/op
+Result  7: 512 op, 616274912.07 ns, 1.2037 ms/op
+Result  8: 512 op, 618484332.07 ns, 1.2080 ms/op
+Result  9: 512 op, 617058826.07 ns, 1.2052 ms/op
+Result 10: 512 op, 617788456.07 ns, 1.2066 ms/op
+Result 11: 512 op, 619627718.07 ns, 1.2102 ms/op
+Result 12: 512 op, 613985272.07 ns, 1.1992 ms/op
+Result 13: 512 op, 616302067.07 ns, 1.2037 ms/op
+Result 14: 512 op, 616354133.07 ns, 1.2038 ms/op
+GC:  0 0 0 0 512
+
+// AfterAll
+
+Mean = 1.2065 ms, StdErr = 0.0014 ms (0.11%); N = 28, StdDev = 0.0072 ms
+Min = 1.1883 ms, Q1 = 1.2035 ms, Median = 1.2061 ms, Q3 = 1.2113 ms, Max = 1.2200 ms
+IQR = 0.0078 ms, LowerFence = 1.1919 ms, UpperFence = 1.2230 ms
+ConfidenceInterval = [1.2015 ms; 1.2115 ms] (CI 99.9%), Margin = 0.0050 ms (0.41% of Mean)
+Skewness = -0.32, Kurtosis = 2.9
+
+
+// **************************
+// Benchmark: SleepMarks.Task: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=1]
+// *** Execute ***
+// Launch: 1 / 2
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.1.5 (Framework 4.6.26919.02), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: NetCoreApp21(Runtime=Core, LaunchCount=2, TargetCount=15, WarmupCount=10)
+
+Pilot  1: 16 op, 20579718.00 ns, 1.2862 ms/op
+Pilot  2: 32 op, 40582025.00 ns, 1.2682 ms/op
+Pilot  3: 64 op, 81393992.00 ns, 1.2718 ms/op
+Pilot  4: 128 op, 162044839.00 ns, 1.2660 ms/op
+Pilot  5: 256 op, 326759413.00 ns, 1.2764 ms/op
+Pilot  6: 512 op, 646599029.00 ns, 1.2629 ms/op
+
+IdleWarmup  1: 512 op, 3495.00 ns, 6.8262 ns/op
+IdleWarmup  2: 512 op, 1125.00 ns, 2.1973 ns/op
+IdleWarmup  3: 512 op, 1070.00 ns, 2.0898 ns/op
+IdleWarmup  4: 512 op, 1036.00 ns, 2.0234 ns/op
+IdleWarmup  5: 512 op, 1022.00 ns, 1.9961 ns/op
+IdleWarmup  6: 512 op, 1063.00 ns, 2.0762 ns/op
+IdleWarmup  7: 512 op, 1045.00 ns, 2.0410 ns/op
+IdleWarmup  8: 512 op, 1033.00 ns, 2.0176 ns/op
+IdleWarmup  9: 512 op, 1036.00 ns, 2.0234 ns/op
+IdleWarmup 10: 512 op, 1070.00 ns, 2.0898 ns/op
+
+IdleTarget  1: 512 op, 1056.00 ns, 2.0625 ns/op
+IdleTarget  2: 512 op, 1070.00 ns, 2.0898 ns/op
+IdleTarget  3: 512 op, 1053.00 ns, 2.0566 ns/op
+IdleTarget  4: 512 op, 1169.00 ns, 2.2832 ns/op
+IdleTarget  5: 512 op, 1048.00 ns, 2.0469 ns/op
+IdleTarget  6: 512 op, 1045.00 ns, 2.0410 ns/op
+IdleTarget  7: 512 op, 1034.00 ns, 2.0195 ns/op
+IdleTarget  8: 512 op, 1040.00 ns, 2.0313 ns/op
+IdleTarget  9: 512 op, 1071.00 ns, 2.0918 ns/op
+IdleTarget 10: 512 op, 1023.00 ns, 1.9980 ns/op
+IdleTarget 11: 512 op, 987.00 ns, 1.9277 ns/op
+IdleTarget 12: 512 op, 983.00 ns, 1.9199 ns/op
+IdleTarget 13: 512 op, 1013.00 ns, 1.9785 ns/op
+IdleTarget 14: 512 op, 1001.00 ns, 1.9551 ns/op
+IdleTarget 15: 512 op, 1039.00 ns, 2.0293 ns/op
+
+MainWarmup  1: 512 op, 650229981.00 ns, 1.2700 ms/op
+MainWarmup  2: 512 op, 654252947.00 ns, 1.2778 ms/op
+MainWarmup  3: 512 op, 644012446.00 ns, 1.2578 ms/op
+MainWarmup  4: 512 op, 645439066.00 ns, 1.2606 ms/op
+MainWarmup  5: 512 op, 640168217.00 ns, 1.2503 ms/op
+MainWarmup  6: 512 op, 647042575.00 ns, 1.2638 ms/op
+MainWarmup  7: 512 op, 647622362.00 ns, 1.2649 ms/op
+MainWarmup  8: 512 op, 647916157.00 ns, 1.2655 ms/op
+MainWarmup  9: 512 op, 643669974.00 ns, 1.2572 ms/op
+MainWarmup 10: 512 op, 643693753.00 ns, 1.2572 ms/op
+
+// BeforeMainRun
+MainTarget  1: 512 op, 642678772.00 ns, 1.2552 ms/op
+MainTarget  2: 512 op, 645566158.00 ns, 1.2609 ms/op
+MainTarget  3: 512 op, 650108640.00 ns, 1.2697 ms/op
+MainTarget  4: 512 op, 640709339.00 ns, 1.2514 ms/op
+MainTarget  5: 512 op, 667125976.00 ns, 1.3030 ms/op
+MainTarget  6: 512 op, 646177294.00 ns, 1.2621 ms/op
+MainTarget  7: 512 op, 627514169.00 ns, 1.2256 ms/op
+MainTarget  8: 512 op, 616055912.00 ns, 1.2032 ms/op
+MainTarget  9: 512 op, 641559709.00 ns, 1.2530 ms/op
+MainTarget 10: 512 op, 642418433.00 ns, 1.2547 ms/op
+MainTarget 11: 512 op, 651705537.00 ns, 1.2729 ms/op
+MainTarget 12: 512 op, 638701916.00 ns, 1.2475 ms/op
+MainTarget 13: 512 op, 639535406.00 ns, 1.2491 ms/op
+MainTarget 14: 512 op, 647764439.00 ns, 1.2652 ms/op
+MainTarget 15: 512 op, 639736269.00 ns, 1.2495 ms/op
+
+// AfterMainRun
+Result  1: 512 op, 642677729.87 ns, 1.2552 ms/op
+Result  2: 512 op, 645565115.87 ns, 1.2609 ms/op
+Result  3: 512 op, 650107597.87 ns, 1.2697 ms/op
+Result  4: 512 op, 640708296.87 ns, 1.2514 ms/op
+Result  5: 512 op, 646176251.87 ns, 1.2621 ms/op
+Result  6: 512 op, 627513126.87 ns, 1.2256 ms/op
+Result  7: 512 op, 641558666.87 ns, 1.2530 ms/op
+Result  8: 512 op, 642417390.87 ns, 1.2547 ms/op
+Result  9: 512 op, 651704494.87 ns, 1.2729 ms/op
+Result 10: 512 op, 638700873.87 ns, 1.2475 ms/op
+Result 11: 512 op, 639534363.87 ns, 1.2491 ms/op
+Result 12: 512 op, 647763396.87 ns, 1.2652 ms/op
+Result 13: 512 op, 639735226.87 ns, 1.2495 ms/op
+GC:  0 0 0 135040 512
+
+// AfterAll
+// Launch: 2 / 2
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.1.5 (Framework 4.6.26919.02), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: NetCoreApp21(Runtime=Core, LaunchCount=2, TargetCount=15, WarmupCount=10)
+
+Pilot  1: 16 op, 20889560.00 ns, 1.3056 ms/op
+Pilot  2: 32 op, 40406564.00 ns, 1.2627 ms/op
+Pilot  3: 64 op, 81201613.00 ns, 1.2688 ms/op
+Pilot  4: 128 op, 164551424.00 ns, 1.2856 ms/op
+Pilot  5: 256 op, 325466395.00 ns, 1.2714 ms/op
+Pilot  6: 512 op, 652549209.00 ns, 1.2745 ms/op
+
+IdleWarmup  1: 512 op, 3256.00 ns, 6.3594 ns/op
+IdleWarmup  2: 512 op, 1018.00 ns, 1.9883 ns/op
+IdleWarmup  3: 512 op, 1050.00 ns, 2.0508 ns/op
+IdleWarmup  4: 512 op, 1074.00 ns, 2.0977 ns/op
+IdleWarmup  5: 512 op, 1084.00 ns, 2.1172 ns/op
+IdleWarmup  6: 512 op, 1058.00 ns, 2.0664 ns/op
+IdleWarmup  7: 512 op, 1017.00 ns, 1.9863 ns/op
+IdleWarmup  8: 512 op, 1043.00 ns, 2.0371 ns/op
+IdleWarmup  9: 512 op, 1043.00 ns, 2.0371 ns/op
+
+IdleTarget  1: 512 op, 1047.00 ns, 2.0449 ns/op
+IdleTarget  2: 512 op, 1047.00 ns, 2.0449 ns/op
+IdleTarget  3: 512 op, 1133.00 ns, 2.2129 ns/op
+IdleTarget  4: 512 op, 1042.00 ns, 2.0352 ns/op
+IdleTarget  5: 512 op, 1051.00 ns, 2.0527 ns/op
+IdleTarget  6: 512 op, 1017.00 ns, 1.9863 ns/op
+IdleTarget  7: 512 op, 996.00 ns, 1.9453 ns/op
+IdleTarget  8: 512 op, 1062.00 ns, 2.0742 ns/op
+IdleTarget  9: 512 op, 1037.00 ns, 2.0254 ns/op
+IdleTarget 10: 512 op, 1014.00 ns, 1.9805 ns/op
+IdleTarget 11: 512 op, 1006.00 ns, 1.9648 ns/op
+IdleTarget 12: 512 op, 1029.00 ns, 2.0098 ns/op
+IdleTarget 13: 512 op, 1019.00 ns, 1.9902 ns/op
+IdleTarget 14: 512 op, 1066.00 ns, 2.0820 ns/op
+IdleTarget 15: 512 op, 1038.00 ns, 2.0273 ns/op
+
+MainWarmup  1: 512 op, 643641827.00 ns, 1.2571 ms/op
+MainWarmup  2: 512 op, 646740215.00 ns, 1.2632 ms/op
+MainWarmup  3: 512 op, 644601413.00 ns, 1.2590 ms/op
+MainWarmup  4: 512 op, 644219929.00 ns, 1.2582 ms/op
+MainWarmup  5: 512 op, 650186075.00 ns, 1.2699 ms/op
+MainWarmup  6: 512 op, 638390341.00 ns, 1.2469 ms/op
+MainWarmup  7: 512 op, 656319921.00 ns, 1.2819 ms/op
+MainWarmup  8: 512 op, 645003177.00 ns, 1.2598 ms/op
+MainWarmup  9: 512 op, 648114825.00 ns, 1.2658 ms/op
+MainWarmup 10: 512 op, 647868237.00 ns, 1.2654 ms/op
+
+// BeforeMainRun
+MainTarget  1: 512 op, 648649895.00 ns, 1.2669 ms/op
+MainTarget  2: 512 op, 649614622.00 ns, 1.2688 ms/op
+MainTarget  3: 512 op, 635714408.00 ns, 1.2416 ms/op
+MainTarget  4: 512 op, 646479507.00 ns, 1.2627 ms/op
+MainTarget  5: 512 op, 643700066.00 ns, 1.2572 ms/op
+MainTarget  6: 512 op, 648924509.00 ns, 1.2674 ms/op
+MainTarget  7: 512 op, 646865681.00 ns, 1.2634 ms/op
+MainTarget  8: 512 op, 642252085.00 ns, 1.2544 ms/op
+MainTarget  9: 512 op, 655293440.00 ns, 1.2799 ms/op
+MainTarget 10: 512 op, 647627538.00 ns, 1.2649 ms/op
+MainTarget 11: 512 op, 639735566.00 ns, 1.2495 ms/op
+MainTarget 12: 512 op, 644994237.00 ns, 1.2598 ms/op
+MainTarget 13: 512 op, 635721036.00 ns, 1.2416 ms/op
+MainTarget 14: 512 op, 646162434.00 ns, 1.2620 ms/op
+MainTarget 15: 512 op, 638307252.00 ns, 1.2467 ms/op
+
+// AfterMainRun
+Result  1: 512 op, 648648854.73 ns, 1.2669 ms/op
+Result  2: 512 op, 649613581.73 ns, 1.2688 ms/op
+Result  3: 512 op, 635713367.73 ns, 1.2416 ms/op
+Result  4: 512 op, 646478466.73 ns, 1.2627 ms/op
+Result  5: 512 op, 643699025.73 ns, 1.2572 ms/op
+Result  6: 512 op, 648923468.73 ns, 1.2674 ms/op
+Result  7: 512 op, 646864640.73 ns, 1.2634 ms/op
+Result  8: 512 op, 642251044.73 ns, 1.2544 ms/op
+Result  9: 512 op, 655292399.73 ns, 1.2799 ms/op
+Result 10: 512 op, 647626497.73 ns, 1.2649 ms/op
+Result 11: 512 op, 639734525.73 ns, 1.2495 ms/op
+Result 12: 512 op, 644993196.73 ns, 1.2598 ms/op
+Result 13: 512 op, 635719995.73 ns, 1.2416 ms/op
+Result 14: 512 op, 646161393.73 ns, 1.2620 ms/op
+Result 15: 512 op, 638306211.73 ns, 1.2467 ms/op
+GC:  0 0 0 135168 512
+
+// AfterAll
+
+Mean = 1.2573 ms, StdErr = 0.0021 ms (0.17%); N = 28, StdDev = 0.0113 ms
+Min = 1.2256 ms, Q1 = 1.2495 ms, Median = 1.2585 ms, Q3 = 1.2650 ms, Max = 1.2799 ms
+IQR = 0.0155 ms, LowerFence = 1.2262 ms, UpperFence = 1.2883 ms
+ConfidenceInterval = [1.2494 ms; 1.2651 ms] (CI 99.9%), Margin = 0.0079 ms (0.63% of Mean)
+Skewness = -0.52, Kurtosis = 3.4
+
+
+// **************************
+// Benchmark: SleepMarks.AsyncToTask: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=1]
+// *** Execute ***
+// Launch: 1 / 2
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.1.5 (Framework 4.6.26919.02), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: NetCoreApp21(Runtime=Core, LaunchCount=2, TargetCount=15, WarmupCount=10)
+
+Pilot  1: 16 op, 20811429.00 ns, 1.3007 ms/op
+Pilot  2: 32 op, 41488884.00 ns, 1.2965 ms/op
+Pilot  3: 64 op, 80754184.00 ns, 1.2618 ms/op
+Pilot  4: 128 op, 164055439.00 ns, 1.2817 ms/op
+Pilot  5: 256 op, 329803630.00 ns, 1.2883 ms/op
+Pilot  6: 512 op, 652693906.00 ns, 1.2748 ms/op
+
+IdleWarmup  1: 512 op, 4608.00 ns, 9.0000 ns/op
+IdleWarmup  2: 512 op, 2463.00 ns, 4.8105 ns/op
+IdleWarmup  3: 512 op, 2468.00 ns, 4.8203 ns/op
+IdleWarmup  4: 512 op, 2458.00 ns, 4.8008 ns/op
+IdleWarmup  5: 512 op, 2466.00 ns, 4.8164 ns/op
+IdleWarmup  6: 512 op, 2488.00 ns, 4.8594 ns/op
+IdleWarmup  7: 512 op, 2458.00 ns, 4.8008 ns/op
+
+IdleTarget  1: 512 op, 2560.00 ns, 5.0000 ns/op
+IdleTarget  2: 512 op, 2514.00 ns, 4.9102 ns/op
+IdleTarget  3: 512 op, 2756.00 ns, 5.3828 ns/op
+IdleTarget  4: 512 op, 2584.00 ns, 5.0469 ns/op
+IdleTarget  5: 512 op, 2453.00 ns, 4.7910 ns/op
+IdleTarget  6: 512 op, 2498.00 ns, 4.8789 ns/op
+IdleTarget  7: 512 op, 2479.00 ns, 4.8418 ns/op
+IdleTarget  8: 512 op, 2425.00 ns, 4.7363 ns/op
+IdleTarget  9: 512 op, 2445.00 ns, 4.7754 ns/op
+IdleTarget 10: 512 op, 2487.00 ns, 4.8574 ns/op
+IdleTarget 11: 512 op, 3177.00 ns, 6.2051 ns/op
+IdleTarget 12: 512 op, 2491.00 ns, 4.8652 ns/op
+IdleTarget 13: 512 op, 2470.00 ns, 4.8242 ns/op
+IdleTarget 14: 512 op, 3407.00 ns, 6.6543 ns/op
+IdleTarget 15: 512 op, 2968.00 ns, 5.7969 ns/op
+IdleTarget 16: 512 op, 2453.00 ns, 4.7910 ns/op
+IdleTarget 17: 512 op, 2510.00 ns, 4.9023 ns/op
+
+MainWarmup  1: 512 op, 651890340.00 ns, 1.2732 ms/op
+MainWarmup  2: 512 op, 651729758.00 ns, 1.2729 ms/op
+MainWarmup  3: 512 op, 663832054.00 ns, 1.2965 ms/op
+MainWarmup  4: 512 op, 682119418.00 ns, 1.3323 ms/op
+MainWarmup  5: 512 op, 656972014.00 ns, 1.2831 ms/op
+MainWarmup  6: 512 op, 664550251.00 ns, 1.2979 ms/op
+MainWarmup  7: 512 op, 645233693.00 ns, 1.2602 ms/op
+MainWarmup  8: 512 op, 650303799.00 ns, 1.2701 ms/op
+MainWarmup  9: 512 op, 655296742.00 ns, 1.2799 ms/op
+MainWarmup 10: 512 op, 658513432.00 ns, 1.2862 ms/op
+
+// BeforeMainRun
+MainTarget  1: 512 op, 652982792.00 ns, 1.2754 ms/op
+MainTarget  2: 512 op, 650162970.00 ns, 1.2698 ms/op
+MainTarget  3: 512 op, 672917434.00 ns, 1.3143 ms/op
+MainTarget  4: 512 op, 645425135.00 ns, 1.2606 ms/op
+MainTarget  5: 512 op, 667829159.00 ns, 1.3044 ms/op
+MainTarget  6: 512 op, 647967097.00 ns, 1.2656 ms/op
+MainTarget  7: 512 op, 659473477.00 ns, 1.2880 ms/op
+MainTarget  8: 512 op, 663766512.00 ns, 1.2964 ms/op
+MainTarget  9: 512 op, 653467233.00 ns, 1.2763 ms/op
+MainTarget 10: 512 op, 657156939.00 ns, 1.2835 ms/op
+MainTarget 11: 512 op, 659262932.00 ns, 1.2876 ms/op
+MainTarget 12: 512 op, 646325208.00 ns, 1.2624 ms/op
+MainTarget 13: 512 op, 652541513.00 ns, 1.2745 ms/op
+MainTarget 14: 512 op, 657750553.00 ns, 1.2847 ms/op
+MainTarget 15: 512 op, 659014216.00 ns, 1.2871 ms/op
+
+// AfterMainRun
+Result  1: 512 op, 652980163.94 ns, 1.2754 ms/op
+Result  2: 512 op, 650160341.94 ns, 1.2698 ms/op
+Result  3: 512 op, 672914805.94 ns, 1.3143 ms/op
+Result  4: 512 op, 645422506.94 ns, 1.2606 ms/op
+Result  5: 512 op, 667826530.94 ns, 1.3043 ms/op
+Result  6: 512 op, 647964468.94 ns, 1.2656 ms/op
+Result  7: 512 op, 659470848.94 ns, 1.2880 ms/op
+Result  8: 512 op, 663763883.94 ns, 1.2964 ms/op
+Result  9: 512 op, 653464604.94 ns, 1.2763 ms/op
+Result 10: 512 op, 657154310.94 ns, 1.2835 ms/op
+Result 11: 512 op, 659260303.94 ns, 1.2876 ms/op
+Result 12: 512 op, 646322579.94 ns, 1.2623 ms/op
+Result 13: 512 op, 652538884.94 ns, 1.2745 ms/op
+Result 14: 512 op, 657747924.94 ns, 1.2847 ms/op
+Result 15: 512 op, 659011587.94 ns, 1.2871 ms/op
+GC:  0 0 0 343872 512
+
+// AfterAll
+// Launch: 2 / 2
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.1.5 (Framework 4.6.26919.02), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: NetCoreApp21(Runtime=Core, LaunchCount=2, TargetCount=15, WarmupCount=10)
+
+Pilot  1: 16 op, 20430565.00 ns, 1.2769 ms/op
+Pilot  2: 32 op, 40965812.00 ns, 1.2802 ms/op
+Pilot  3: 64 op, 81845786.00 ns, 1.2788 ms/op
+Pilot  4: 128 op, 164170882.00 ns, 1.2826 ms/op
+Pilot  5: 256 op, 324982311.00 ns, 1.2695 ms/op
+Pilot  6: 512 op, 656640825.00 ns, 1.2825 ms/op
+
+IdleWarmup  1: 512 op, 4276.00 ns, 8.3516 ns/op
+IdleWarmup  2: 512 op, 2481.00 ns, 4.8457 ns/op
+IdleWarmup  3: 512 op, 2418.00 ns, 4.7227 ns/op
+IdleWarmup  4: 512 op, 2356.00 ns, 4.6016 ns/op
+IdleWarmup  5: 512 op, 2518.00 ns, 4.9180 ns/op
+IdleWarmup  6: 512 op, 2448.00 ns, 4.7813 ns/op
+IdleWarmup  7: 512 op, 2356.00 ns, 4.6016 ns/op
+IdleWarmup  8: 512 op, 2505.00 ns, 4.8926 ns/op
+IdleWarmup  9: 512 op, 2467.00 ns, 4.8184 ns/op
+
+IdleTarget  1: 512 op, 2512.00 ns, 4.9063 ns/op
+IdleTarget  2: 512 op, 2461.00 ns, 4.8066 ns/op
+IdleTarget  3: 512 op, 3186.00 ns, 6.2227 ns/op
+IdleTarget  4: 512 op, 2485.00 ns, 4.8535 ns/op
+IdleTarget  5: 512 op, 2481.00 ns, 4.8457 ns/op
+IdleTarget  6: 512 op, 2426.00 ns, 4.7383 ns/op
+IdleTarget  7: 512 op, 2406.00 ns, 4.6992 ns/op
+IdleTarget  8: 512 op, 2366.00 ns, 4.6211 ns/op
+IdleTarget  9: 512 op, 2423.00 ns, 4.7324 ns/op
+IdleTarget 10: 512 op, 2467.00 ns, 4.8184 ns/op
+IdleTarget 11: 512 op, 2462.00 ns, 4.8086 ns/op
+IdleTarget 12: 512 op, 2509.00 ns, 4.9004 ns/op
+IdleTarget 13: 512 op, 2462.00 ns, 4.8086 ns/op
+IdleTarget 14: 512 op, 2413.00 ns, 4.7129 ns/op
+IdleTarget 15: 512 op, 2366.00 ns, 4.6211 ns/op
+
+MainWarmup  1: 512 op, 647005972.00 ns, 1.2637 ms/op
+MainWarmup  2: 512 op, 646381810.00 ns, 1.2625 ms/op
+MainWarmup  3: 512 op, 653150547.00 ns, 1.2757 ms/op
+MainWarmup  4: 512 op, 654235546.00 ns, 1.2778 ms/op
+MainWarmup  5: 512 op, 651660019.00 ns, 1.2728 ms/op
+MainWarmup  6: 512 op, 661281702.00 ns, 1.2916 ms/op
+MainWarmup  7: 512 op, 652938829.00 ns, 1.2753 ms/op
+MainWarmup  8: 512 op, 656519671.00 ns, 1.2823 ms/op
+MainWarmup  9: 512 op, 657194113.00 ns, 1.2836 ms/op
+MainWarmup 10: 512 op, 651962721.00 ns, 1.2734 ms/op
+
+// BeforeMainRun
+MainTarget  1: 512 op, 655420764.00 ns, 1.2801 ms/op
+MainTarget  2: 512 op, 654504812.00 ns, 1.2783 ms/op
+MainTarget  3: 512 op, 648736730.00 ns, 1.2671 ms/op
+MainTarget  4: 512 op, 646461281.00 ns, 1.2626 ms/op
+MainTarget  5: 512 op, 652126528.00 ns, 1.2737 ms/op
+MainTarget  6: 512 op, 649516035.00 ns, 1.2686 ms/op
+MainTarget  7: 512 op, 655591776.00 ns, 1.2805 ms/op
+MainTarget  8: 512 op, 653192047.00 ns, 1.2758 ms/op
+MainTarget  9: 512 op, 661308767.00 ns, 1.2916 ms/op
+MainTarget 10: 512 op, 660372136.00 ns, 1.2898 ms/op
+MainTarget 11: 512 op, 657789937.00 ns, 1.2847 ms/op
+MainTarget 12: 512 op, 668931544.00 ns, 1.3065 ms/op
+MainTarget 13: 512 op, 654548985.00 ns, 1.2784 ms/op
+MainTarget 14: 512 op, 639633132.00 ns, 1.2493 ms/op
+MainTarget 15: 512 op, 625917420.00 ns, 1.2225 ms/op
+
+// AfterMainRun
+Result  1: 512 op, 655418269.00 ns, 1.2801 ms/op
+Result  2: 512 op, 654502317.00 ns, 1.2783 ms/op
+Result  3: 512 op, 648734235.00 ns, 1.2671 ms/op
+Result  4: 512 op, 646458786.00 ns, 1.2626 ms/op
+Result  5: 512 op, 652124033.00 ns, 1.2737 ms/op
+Result  6: 512 op, 649513540.00 ns, 1.2686 ms/op
+Result  7: 512 op, 655589281.00 ns, 1.2804 ms/op
+Result  8: 512 op, 653189552.00 ns, 1.2758 ms/op
+Result  9: 512 op, 661306272.00 ns, 1.2916 ms/op
+Result 10: 512 op, 660369641.00 ns, 1.2898 ms/op
+Result 11: 512 op, 657787442.00 ns, 1.2847 ms/op
+Result 12: 512 op, 668929049.00 ns, 1.3065 ms/op
+Result 13: 512 op, 654546490.00 ns, 1.2784 ms/op
+Result 14: 512 op, 639630637.00 ns, 1.2493 ms/op
+GC:  0 0 0 343872 512
+
+// AfterAll
+
+Mean = 1.2799 ms, StdErr = 0.0027 ms (0.21%); N = 29, StdDev = 0.0145 ms
+Min = 1.2493 ms, Q1 = 1.2692 ms, Median = 1.2784 ms, Q3 = 1.2878 ms, Max = 1.3143 ms
+IQR = 0.0186 ms, LowerFence = 1.2413 ms, UpperFence = 1.3157 ms
+ConfidenceInterval = [1.2700 ms; 1.2898 ms] (CI 99.9%), Margin = 0.0099 ms (0.77% of Mean)
+Skewness = 0.32, Kurtosis = 2.88
+
+
+// **************************
+// Benchmark: SleepMarks.AsyncToSync: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=1]
+// *** Execute ***
+// Launch: 1 / 2
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.1.5 (Framework 4.6.26919.02), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: NetCoreApp21(Runtime=Core, LaunchCount=2, TargetCount=15, WarmupCount=10)
+
+Pilot  1: 16 op, 20973882.00 ns, 1.3109 ms/op
+Pilot  2: 32 op, 40670601.00 ns, 1.2710 ms/op
+Pilot  3: 64 op, 81114114.00 ns, 1.2674 ms/op
+Pilot  4: 128 op, 162188724.00 ns, 1.2671 ms/op
+Pilot  5: 256 op, 324091325.00 ns, 1.2660 ms/op
+Pilot  6: 512 op, 645995151.00 ns, 1.2617 ms/op
+
+IdleWarmup  1: 512 op, 3289.00 ns, 6.4238 ns/op
+IdleWarmup  2: 512 op, 1042.00 ns, 2.0352 ns/op
+IdleWarmup  3: 512 op, 997.00 ns, 1.9473 ns/op
+IdleWarmup  4: 512 op, 1073.00 ns, 2.0957 ns/op
+IdleWarmup  5: 512 op, 1014.00 ns, 1.9805 ns/op
+IdleWarmup  6: 512 op, 984.00 ns, 1.9219 ns/op
+IdleWarmup  7: 512 op, 968.00 ns, 1.8906 ns/op
+IdleWarmup  8: 512 op, 974.00 ns, 1.9023 ns/op
+IdleWarmup  9: 512 op, 1063.00 ns, 2.0762 ns/op
+IdleWarmup 10: 512 op, 999.00 ns, 1.9512 ns/op
+
+IdleTarget  1: 512 op, 1105.00 ns, 2.1582 ns/op
+IdleTarget  2: 512 op, 1123.00 ns, 2.1934 ns/op
+IdleTarget  3: 512 op, 1077.00 ns, 2.1035 ns/op
+IdleTarget  4: 512 op, 1171.00 ns, 2.2871 ns/op
+IdleTarget  5: 512 op, 1054.00 ns, 2.0586 ns/op
+IdleTarget  6: 512 op, 1007.00 ns, 1.9668 ns/op
+IdleTarget  7: 512 op, 1057.00 ns, 2.0645 ns/op
+IdleTarget  8: 512 op, 1005.00 ns, 1.9629 ns/op
+IdleTarget  9: 512 op, 1062.00 ns, 2.0742 ns/op
+IdleTarget 10: 512 op, 1025.00 ns, 2.0020 ns/op
+IdleTarget 11: 512 op, 1057.00 ns, 2.0645 ns/op
+IdleTarget 12: 512 op, 1038.00 ns, 2.0273 ns/op
+IdleTarget 13: 512 op, 1073.00 ns, 2.0957 ns/op
+IdleTarget 14: 512 op, 988.00 ns, 1.9297 ns/op
+IdleTarget 15: 512 op, 1002.00 ns, 1.9570 ns/op
+IdleTarget 16: 512 op, 984.00 ns, 1.9219 ns/op
+
+MainWarmup  1: 512 op, 642621300.00 ns, 1.2551 ms/op
+MainWarmup  2: 512 op, 637884342.00 ns, 1.2459 ms/op
+MainWarmup  3: 512 op, 644971508.00 ns, 1.2597 ms/op
+MainWarmup  4: 512 op, 649636836.00 ns, 1.2688 ms/op
+MainWarmup  5: 512 op, 636153151.00 ns, 1.2425 ms/op
+MainWarmup  6: 512 op, 632290040.00 ns, 1.2349 ms/op
+MainWarmup  7: 512 op, 633782644.00 ns, 1.2379 ms/op
+MainWarmup  8: 512 op, 

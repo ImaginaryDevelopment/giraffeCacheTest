@@ -45,7 +45,7 @@ type SleepMarks () =
     member this.AsyncToSync () = Async.Sleep(this.sleepTime) |> Async.RunSynchronously
 
 module Geoffrey =
-    let nodeCount = 100_000
+    let nodeCount = 1_000
     let iterCount = 100
     let holes = [0..10] |> List.map(sprintf "%i")
     let generate count =
