@@ -1,0 +1,223 @@
+// ***** BenchmarkRunner: Start   *****
+// Found benchmarks:
+//   SleepMarks.Thread: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=0]
+//   SleepMarks.Task: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=0]
+//   SleepMarks.AsyncToTask: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=0]
+//   SleepMarks.AsyncToSync: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=0]
+//   SleepMarks.Thread: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=1]
+//   SleepMarks.Task: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=1]
+//   SleepMarks.AsyncToTask: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=1]
+//   SleepMarks.AsyncToSync: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=1]
+//   SleepMarks.Thread: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=15]
+//   SleepMarks.Task: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=15]
+//   SleepMarks.AsyncToTask: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=15]
+//   SleepMarks.AsyncToSync: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=15]
+//   SleepMarks.Thread: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=100]
+//   SleepMarks.Task: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=100]
+//   SleepMarks.AsyncToTask: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=100]
+//   SleepMarks.AsyncToSync: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=100]
+
+// Validating benchmarks:
+// ***** Building 16 benchmark(s) in Parallel: Start   *****
+// ***** Done, took 00:00:20 (20.44 sec)   *****
+// **************************
+// Benchmark: SleepMarks.Thread: NetCoreApp21(Runtime=Core, Toolchain=.NET Core 2.1, LaunchCount=2, TargetCount=15, WarmupCount=10) [sleepTime=0]
+// *** Execute ***
+// Launch: 1 / 2
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.1.5 (Framework 4.6.26919.02), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: NetCoreApp21(Runtime=Core, LaunchCount=2, TargetCount=15, WarmupCount=10)
+
+Pilot  1: 16 op, 186178.00 ns, 11.6361 us/op
+Pilot  2: 32 op, 28351.00 ns, 885.9688 ns/op
+Pilot  3: 64 op, 79320.00 ns, 1.2394 us/op
+Pilot  4: 128 op, 175353.00 ns, 1.3699 us/op
+Pilot  5: 256 op, 403507.00 ns, 1.5762 us/op
+Pilot  6: 512 op, 607852.00 ns, 1.1872 us/op
+Pilot  7: 1024 op, 789036.00 ns, 770.5430 ns/op
+Pilot  8: 2048 op, 1633836.00 ns, 797.7715 ns/op
+Pilot  9: 4096 op, 4045122.00 ns, 987.5786 ns/op
+Pilot 10: 8192 op, 8601685.00 ns, 1.0500 us/op
+Pilot 11: 16384 op, 15646129.00 ns, 954.9639 ns/op
+Pilot 12: 32768 op, 39101194.00 ns, 1.1933 us/op
+Pilot 13: 65536 op, 56106191.00 ns, 856.1125 ns/op
+Pilot 14: 131072 op, 113416233.00 ns, 865.2972 ns/op
+Pilot 15: 262144 op, 213660222.00 ns, 815.0491 ns/op
+Pilot 16: 524288 op, 449341759.00 ns, 857.0514 ns/op
+Pilot 17: 1048576 op, 874652316.00 ns, 834.1334 ns/op
+
+IdleWarmup  1: 1048576 op, 1571931.00 ns, 1.4991 ns/op
+IdleWarmup  2: 1048576 op, 1569194.00 ns, 1.4965 ns/op
+IdleWarmup  3: 1048576 op, 1556383.00 ns, 1.4843 ns/op
+IdleWarmup  4: 1048576 op, 1593093.00 ns, 1.5193 ns/op
+IdleWarmup  5: 1048576 op, 1566737.00 ns, 1.4942 ns/op
+IdleWarmup  6: 1048576 op, 1566726.00 ns, 1.4941 ns/op
+IdleWarmup  7: 1048576 op, 1564701.00 ns, 1.4922 ns/op
+IdleWarmup  8: 1048576 op, 1552076.00 ns, 1.4802 ns/op
+IdleWarmup  9: 1048576 op, 1568950.00 ns, 1.4963 ns/op
+IdleWarmup 10: 1048576 op, 1610186.00 ns, 1.5356 ns/op
+
+IdleTarget  1: 1048576 op, 1599712.00 ns, 1.5256 ns/op
+IdleTarget  2: 1048576 op, 1641109.00 ns, 1.5651 ns/op
+IdleTarget  3: 1048576 op, 1574680.00 ns, 1.5017 ns/op
+IdleTarget  4: 1048576 op, 1567573.00 ns, 1.4950 ns/op
+IdleTarget  5: 1048576 op, 1567140.00 ns, 1.4945 ns/op
+IdleTarget  6: 1048576 op, 1550330.00 ns, 1.4785 ns/op
+IdleTarget  7: 1048576 op, 1574749.00 ns, 1.5018 ns/op
+IdleTarget  8: 1048576 op, 1556435.00 ns, 1.4843 ns/op
+IdleTarget  9: 1048576 op, 1642990.00 ns, 1.5669 ns/op
+IdleTarget 10: 1048576 op, 1571382.00 ns, 1.4986 ns/op
+IdleTarget 11: 1048576 op, 1633191.00 ns, 1.5575 ns/op
+IdleTarget 12: 1048576 op, 1590677.00 ns, 1.5170 ns/op
+IdleTarget 13: 1048576 op, 1567119.00 ns, 1.4945 ns/op
+IdleTarget 14: 1048576 op, 1569271.00 ns, 1.4966 ns/op
+IdleTarget 15: 1048576 op, 1566745.00 ns, 1.4942 ns/op
+
+MainWarmup  1: 1048576 op, 892209559.00 ns, 850.8773 ns/op
+MainWarmup  2: 1048576 op, 892958926.00 ns, 851.5920 ns/op
+MainWarmup  3: 1048576 op, 877222391.00 ns, 836.5845 ns/op
+MainWarmup  4: 1048576 op, 872165567.00 ns, 831.7619 ns/op
+MainWarmup  5: 1048576 op, 865842035.00 ns, 825.7313 ns/op
+MainWarmup  6: 1048576 op, 876170231.00 ns, 835.5810 ns/op
+MainWarmup  7: 1048576 op, 872554329.00 ns, 832.1327 ns/op
+MainWarmup  8: 1048576 op, 880891356.00 ns, 840.0835 ns/op
+MainWarmup  9: 1048576 op, 858077675.00 ns, 818.3266 ns/op
+MainWarmup 10: 1048576 op, 876520472.00 ns, 835.9151 ns/op
+
+// BeforeMainRun
+MainTarget  1: 1048576 op, 867801398.00 ns, 827.5999 ns/op
+MainTarget  2: 1048576 op, 878389327.00 ns, 837.6973 ns/op
+MainTarget  3: 1048576 op, 891786980.00 ns, 850.4743 ns/op
+MainTarget  4: 1048576 op, 878761700.00 ns, 838.0525 ns/op
+MainTarget  5: 1048576 op, 858878131.00 ns, 819.0900 ns/op
+MainTarget  6: 1048576 op, 844065256.00 ns, 804.9634 ns/op
+MainTarget  7: 1048576 op, 861749029.00 ns, 821.8279 ns/op
+MainTarget  8: 1048576 op, 877588236.00 ns, 836.9334 ns/op
+MainTarget  9: 1048576 op, 863933754.00 ns, 823.9114 ns/op
+MainTarget 10: 1048576 op, 867489272.00 ns, 827.3022 ns/op
+MainTarget 11: 1048576 op, 860592720.00 ns, 820.7252 ns/op
+MainTarget 12: 1048576 op, 874100947.00 ns, 833.6076 ns/op
+MainTarget 13: 1048576 op, 858510376.00 ns, 818.7393 ns/op
+MainTarget 14: 1048576 op, 866461814.00 ns, 826.3224 ns/op
+MainTarget 15: 1048576 op, 874589268.00 ns, 834.0733 ns/op
+
+// AfterMainRun
+Result  1: 1048576 op, 866216524.47 ns, 826.0885 ns/op
+Result  2: 1048576 op, 876804453.47 ns, 836.1859 ns/op
+Result  3: 1048576 op, 890202106.47 ns, 848.9629 ns/op
+Result  4: 1048576 op, 877176826.47 ns, 836.5410 ns/op
+Result  5: 1048576 op, 857293257.47 ns, 817.5786 ns/op
+Result  6: 1048576 op, 842480382.47 ns, 803.4519 ns/op
+Result  7: 1048576 op, 860164155.47 ns, 820.3165 ns/op
+Result  8: 1048576 op, 876003362.47 ns, 835.4219 ns/op
+Result  9: 1048576 op, 862348880.47 ns, 822.4000 ns/op
+Result 10: 1048576 op, 865904398.47 ns, 825.7908 ns/op
+Result 11: 1048576 op, 859007846.47 ns, 819.2137 ns/op
+Result 12: 1048576 op, 872516073.47 ns, 832.0962 ns/op
+Result 13: 1048576 op, 856925502.47 ns, 817.2278 ns/op
+Result 14: 1048576 op, 864876940.47 ns, 824.8109 ns/op
+Result 15: 1048576 op, 873004394.47 ns, 832.5619 ns/op
+GC:  0 0 0 0 1048576
+
+// AfterAll
+// Launch: 2 / 2
+Failed to set up high priority. Make sure you have the right permissions. Message: Permission denied
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.1.5 (Framework 4.6.26919.02), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: NetCoreApp21(Runtime=Core, LaunchCount=2, TargetCount=15, WarmupCount=10)
+
+Pilot  1: 16 op, 182680.00 ns, 11.4175 us/op
+Pilot  2: 32 op, 57082.00 ns, 1.7838 us/op
+Pilot  3: 64 op, 50037.00 ns, 781.8281 ns/op
+Pilot  4: 128 op, 112043.00 ns, 875.3359 ns/op
+Pilot  5: 256 op, 211316.00 ns, 825.4531 ns/op
+Pilot  6: 512 op, 402517.00 ns, 786.1660 ns/op
+Pilot  7: 1024 op, 825622.00 ns, 806.2715 ns/op
+Pilot  8: 2048 op, 1692448.00 ns, 826.3906 ns/op
+Pilot  9: 4096 op, 3165797.00 ns, 772.8997 ns/op
+Pilot 10: 8192 op, 6627164.00 ns, 808.9800 ns/op
+Pilot 11: 16384 op, 13011610.00 ns, 794.1656 ns/op
+Pilot 12: 32768 op, 26922469.00 ns, 821.6086 ns/op
+Pilot 13: 65536 op, 52816694.00 ns, 805.9188 ns/op
+Pilot 14: 131072 op, 113923132.00 ns, 869.1645 ns/op
+Pilot 15: 262144 op, 212509462.00 ns, 810.6593 ns/op
+Pilot 16: 524288 op, 425716619.00 ns, 811.9900 ns/op
+Pilot 17: 1048576 op, 860095293.00 ns, 820.2508 ns/op
+
+IdleWarmup  1: 1048576 op, 1571682.00 ns, 1.4989 ns/op
+IdleWarmup  2: 1048576 op, 1566721.00 ns, 1.4941 ns/op
+IdleWarmup  3: 1048576 op, 1574955.00 ns, 1.5020 ns/op
+IdleWarmup  4: 1048576 op, 1595140.00 ns, 1.5212 ns/op
+IdleWarmup  5: 1048576 op, 1552666.00 ns, 1.4807 ns/op
+IdleWarmup  6: 1048576 op, 1575904.00 ns, 1.5029 ns/op
+IdleWarmup  7: 1048576 op, 1569330.00 ns, 1.4966 ns/op
+
+IdleTarget  1: 1048576 op, 1569847.00 ns, 1.4971 ns/op
+IdleTarget  2: 1048576 op, 1580445.00 ns, 1.5072 ns/op
+IdleTarget  3: 1048576 op, 1569809.00 ns, 1.4971 ns/op
+IdleTarget  4: 1048576 op, 1566871.00 ns, 1.4943 ns/op
+IdleTarget  5: 1048576 op, 1594477.00 ns, 1.5206 ns/op
+IdleTarget  6: 1048576 op, 1566830.00 ns, 1.4942 ns/op
+IdleTarget  7: 1048576 op, 1556396.00 ns, 1.4843 ns/op
+IdleTarget  8: 1048576 op, 1553765.00 ns, 1.4818 ns/op
+IdleTarget  9: 1048576 op, 1566653.00 ns, 1.4941 ns/op
+IdleTarget 10: 1048576 op, 1566728.00 ns, 1.4941 ns/op
+IdleTarget 11: 1048576 op, 1566694.00 ns, 1.4941 ns/op
+IdleTarget 12: 1048576 op, 1556145.00 ns, 1.4841 ns/op
+IdleTarget 13: 1048576 op, 1572932.00 ns, 1.5001 ns/op
+IdleTarget 14: 1048576 op, 1576267.00 ns, 1.5032 ns/op
+IdleTarget 15: 1048576 op, 1566729.00 ns, 1.4941 ns/op
+
+MainWarmup  1: 1048576 op, 864871694.00 ns, 824.8059 ns/op
+MainWarmup  2: 1048576 op, 860619636.00 ns, 820.7508 ns/op
+MainWarmup  3: 1048576 op, 857161373.00 ns, 817.4528 ns/op
+MainWarmup  4: 1048576 op, 904701774.00 ns, 862.7908 ns/op
+MainWarmup  5: 1048576 op, 899101689.00 ns, 857.4502 ns/op
+MainWarmup  6: 1048576 op, 879412169.00 ns, 838.6728 ns/op
+MainWarmup  7: 1048576 op, 921482411.00 ns, 878.7941 ns/op
+MainWarmup  8: 1048576 op, 960892357.00 ns, 916.3784 ns/op
+MainWarmup  9: 1048576 op, 917598832.00 ns, 875.0904 ns/op
+MainWarmup 10: 1048576 op, 971529204.00 ns, 926.5224 ns/op
+
+// BeforeMainRun
+MainTarget  1: 1048576 op, 910488231.00 ns, 868.3092 ns/op
+MainTarget  2: 1048576 op, 899098894.00 ns, 857.4475 ns/op
+MainTarget  3: 1048576 op, 877219316.00 ns, 836.5815 ns/op
+MainTarget  4: 1048576 op, 884024389.00 ns, 843.0714 ns/op
+MainTarget  5: 1048576 op, 867266545.00 ns, 827.0898 ns/op
+MainTarget  6: 1048576 op, 895124706.00 ns, 853.6574 ns/op
+MainTarget  7: 1048576 op, 894564558.00 ns, 853.1232 ns/op
+MainTarget  8: 1048576 op, 916674195.00 ns, 874.2086 ns/op
+MainTarget  9: 1048576 op, 925840110.00 ns, 882.9499 ns/op
+MainTarget 10: 1048576 op, 907758733.00 ns, 865.7062 ns/op
+MainTarget 11: 1048576 op, 909326505.00 ns, 867.2013 ns/op
+MainTarget 12: 1048576 op, 950674693.00 ns, 906.6340 ns/op
+MainTarget 13: 1048576 op, 917601960.00 ns, 875.0934 ns/op
+MainTarget 14: 1048576 op, 1018690932.00 ns, 971.4994 ns/op
+MainTarget 15: 1048576 op, 894898770.00 ns, 853.4420 ns/op
+
+// AfterMainRun
+Result  1: 1048576 op, 908919525.13 ns, 866.8132 ns/op
+Result  2: 1048576 op, 897530188.13 ns, 855.9515 ns/op
+Result  3: 1048576 op, 875650610.13 ns, 835.0855 ns/op
+Result  4: 1048576 op, 882455683.13 ns, 841.5753 ns/op
+Result  5: 1048576 op, 865697839.13 ns, 825.5938 ns/op
+Result  6: 1048576 op, 893556000.13 ns, 852.1614 ns/op
+Result  7: 1048576 op, 892995852.13 ns, 851.6272 ns/op
+Result  8: 1048576 op, 915105489.13 ns, 872.7126 ns/op
+Result  9: 1048576 op, 924271404.13 ns, 881.4539 ns/op
+Result 10: 1048576 op, 906190027.13 ns, 864.2102 ns/op
+Result 11: 1048576 op, 907757799.13 ns, 865.7053 ns/op
+Result 12: 1048576 op, 949105987.13 ns, 905.1380 ns/op
+Result 13: 1048576 op, 916033254.13 ns, 873.5974 ns/op
+Result 14: 1048576 op, 893330064.13 ns, 851.9459 ns/op
+GC:  0 0 0 0 1048576
+
+// Aft

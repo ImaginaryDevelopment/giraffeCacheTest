@@ -9,6 +9,9 @@ open BenchmarkDotNet.Exporters
 open BenchmarkDotNet.Environments
 open System.Reflection
 open BenchmarkDotNet.Configs
+open Giraffe.GiraffeViewEngine
+open BenchmarkDotNet.Toolchains.CsProj
+open BenchmarkDotNet.Toolchains.DotNetCli
 
 type SleepMarks () =
     [<Params(0, 1, 15, 100)>]
@@ -42,10 +45,31 @@ type SleepMarks () =
     member this.AsyncToSync () = Async.Sleep(this.sleepTime) |> Async.RunSynchronously
 
 type GiraffeMarks() =
+    static let count = 1_000_000
+    static let fullyCached =
+        lazy(
+            GiraffeMarks.Generate count
+            |> Cacher.cache
+        )
+    static member Generate count =
+        div [] [ Giraffe.GiraffeViewEngine.str "root" ]
+        |> Seq.unfold(fun part ->
+            let next = div [] [part]
+            Some(next, next)
+        )
+        |> Seq.truncate count
+        |> List.ofSeq
+        |> List.tail
+        |> List.head
     [<Benchmark>]
-    member __.Uncached() =
+    member __.Uncached () =
+        let _ = GiraffeMarks.Generate count |> Giraffe.GiraffeViewEngine.renderHtmlNode
         ()
-
+    [<Benchmark>]
+    member this.Cached () =
+        fullyCached.Value
+        |> Giraffe.GiraffeViewEngine.renderHtmlNode
+        |> ignore<string>
 
 
 
@@ -55,20 +79,26 @@ type GiraffeMarks() =
 let config =
      ManualConfig
             .Create(DefaultConfig.Instance)
-            .With(Job.ShortRun.With(Runtime.Core))
+            // .With(Job.ShortRun.With(Runtime.Core))
+            .With(Job.MediumRun
+                .With(Runtime.Core)
+                .With(CsProjCoreToolchain.From(NetCoreAppSettings.NetCoreApp21))
+                .WithId("NetCoreApp21")
+            )
             .With(MemoryDiagnoser.Default)
             .With(MarkdownExporter.GitHub)
             .With(ExecutionValidator.FailOnError)
 
 let defaultSwitch () =
-        Assembly.GetExecutingAssembly().GetTypes() |> Array.filter (fun t ->
-            t.GetMethods ()|> Array.exists (fun m ->
-                m.GetCustomAttributes (typeof<BenchmarkAttribute>, false) <> [||] ))
-        |> BenchmarkSwitcher
+    Assembly.GetExecutingAssembly().GetTypes() |> Array.filter (fun t ->
+        t.GetMethods ()|> Array.exists (fun m ->
+            m.GetCustomAttributes (typeof<BenchmarkAttribute>, false) <> [||] ))
+    |> BenchmarkSwitcher
 
 
 [<EntryPoint>]
 let main argv =
+    // GiraffeMarks().Uncached()
     defaultSwitch().Run(argv, config) |>ignore
-    // BenchmarkRunner.Run<SleepMarks>(config) |> ignore
+    BenchmarkRunner.Run<SleepMarks>(config) |> ignore
     0 // return an integer exit code
