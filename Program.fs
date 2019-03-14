@@ -44,15 +44,12 @@ type SleepMarks () =
     [<Benchmark>]
     member this.AsyncToSync () = Async.Sleep(this.sleepTime) |> Async.RunSynchronously
 
-type GiraffeMarks() =
-    static let count = 1_000_000
-    static let fullyCached =
-        lazy(
-            GiraffeMarks.Generate count
-            |> Cacher.cache
-        )
-    static member Generate count =
-        div [] [ Giraffe.GiraffeViewEngine.str "root" ]
+module Geoffrey =
+    let nodeCount = 100_000
+    let iterCount = 100
+    let holes = [0..10] |> List.map(sprintf "%i")
+    let generate count =
+        div [] [ str "root" ]
         |> Seq.unfold(fun part ->
             let next = div [] [part]
             Some(next, next)
@@ -61,19 +58,31 @@ type GiraffeMarks() =
         |> List.ofSeq
         |> List.tail
         |> List.head
+    let glue head hole tail =
+        // div [] [ yield Generate count; yield str "hole";yield GiraffeMarks.Generate count] |> Giraffe.GiraffeViewEngine.renderHtmlNode
+        div [] [ yield head; yield hole; yield tail]
+    let generateFull hole = glue (generate nodeCount) (str hole) (generate nodeCount)
+open Geoffrey
+
+type GiraffeMarks() =
     [<Benchmark>]
     member __.Uncached () =
-        let _ = GiraffeMarks.Generate count |> Giraffe.GiraffeViewEngine.renderHtmlNode
+        for _ in [1..iterCount] do
+            holes
+            |> List.map (generateFull >> renderHtmlNode)
+            |> ignore<string list>
+            ()
         ()
     [<Benchmark>]
-    member this.Cached () =
-        fullyCached.Value
-        |> Giraffe.GiraffeViewEngine.renderHtmlNode
-        |> ignore<string>
-
-
-
-
+    member __.Cached () =
+        let cache1,cache2 = (lazy(generate nodeCount), lazy(generate nodeCount))
+        for _ in [1..iterCount] do
+            holes
+            |> List.map(fun hole ->
+                glue cache1.Value (str hole) cache2.Value
+                |> renderHtmlNode
+            )
+            |> ignore<string list>
 
 
 let config =
