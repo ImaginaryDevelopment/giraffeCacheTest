@@ -45,8 +45,6 @@ type SleepMarks () =
     member this.AsyncToSync () = Async.Sleep(this.sleepTime) |> Async.RunSynchronously
 
 module Geoffrey =
-    let nodeCount = 1_000
-    let iterCount = 100
     let holes = [0..10] |> List.map(sprintf "%i")
     let generate count =
         div [] [ str "root" ]
@@ -61,23 +59,25 @@ module Geoffrey =
     let glue head hole tail =
         // div [] [ yield Generate count; yield str "hole";yield GiraffeMarks.Generate count] |> Giraffe.GiraffeViewEngine.renderHtmlNode
         div [] [ yield head; yield hole; yield tail]
-    let generateFull hole = glue (generate nodeCount) (str hole) (generate nodeCount)
+    let generateFull nodeCount hole = glue (generate nodeCount) (str hole) (generate nodeCount)
 open Geoffrey
 
 type GiraffeMarks() =
     [<Params(1,15,25)>]
     member val IterCount = 0 with get,set
+    [<Params(2,100,1_000)>]
+    member val NodeCount = 0 with get,set
     [<Benchmark>]
     member this.Uncached () =
         for _ in [0..this.IterCount] do
             holes
-            |> List.map (generateFull >> renderHtmlNode)
+            |> List.map (generateFull this.NodeCount >> renderHtmlNode)
             |> ignore<string list>
             ()
         ()
     [<Benchmark>]
     member this.Cached () =
-        let cache1,cache2 = (lazy(generate nodeCount), lazy(generate nodeCount))
+        let cache1,cache2 = (lazy(generate this.NodeCount), lazy(generate this.NodeCount))
         for _ in [0..this.IterCount] do
             holes
             |> List.map(fun hole ->

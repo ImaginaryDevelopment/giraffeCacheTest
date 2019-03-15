@@ -24,14 +24,26 @@ LaunchCount=2  TargetCount=15  WarmupCount=10
 </code></pre>
 
 <table>
-<thead><tr><th>Method</th><th>IterCount</th><th> Mean</th><th> Error</th><th>StdDev</th><th>Gen 0</th><th>Gen 1</th><th>Allocated</th>
+<thead><tr><th>Method</th><th>IterCount</th><th>NodeCount</th><th>  Mean</th><th>  Error</th><th> StdDev</th><th>Median</th><th>Gen 0</th><th>Gen 1</th><th>Allocated</th>
 </tr>
-</thead><tbody><tr><td>Uncached</td><td>1</td><td>5,227.5 us</td><td>47.612 us</td><td>68.283 us</td><td>1945.3125</td><td>7.8125</td><td>8981.86 KB</td>
-</tr><tr><td>Cached</td><td>1</td><td>261.3 us</td><td>3.037 us</td><td>4.451 us</td><td>93.2617</td><td>1.9531</td><td>431.95 KB</td>
-</tr><tr><td>Uncached</td><td>15</td><td>42,873.4 us</td><td>868.036 us</td><td>1,299.236 us</td><td>15562.5000</td><td>62.5000</td><td>71854.33 KB</td>
-</tr><tr><td>Cached</td><td>15</td><td>368.9 us</td><td>8.068 us</td><td>11.826 us</td><td>130.3711</td><td>-</td><td>602.47 KB</td>
-</tr><tr><td>Uncached</td><td>25</td><td>68,075.9 us</td><td>1,590.125 us</td><td>2,229.133 us</td><td>25312.5000</td><td>62.5000</td><td>116763.23 KB</td>
-</tr><tr><td>Cached</td><td>25</td><td>427.1 us</td><td>5.943 us</td><td>8.711 us</td><td>156.7383</td><td>0.4883</td><td>724.27 KB</td>
+</thead><tbody><tr><td>Uncached</td><td>1</td><td>2</td><td>33.71 us</td><td>0.3934 us</td><td>0.5643 us</td><td>33.63 us</td><td>13.4888</td><td>-</td><td>62.28 KB</td>
+</tr><tr><td>Cached</td><td>1</td><td>2</td><td>15.49 us</td><td>0.2021 us</td><td>0.2899 us</td><td>15.39 us</td><td>5.7373</td><td>-</td><td>26.52 KB</td>
+</tr><tr><td>Uncached</td><td>1</td><td>100</td><td>491.70 us</td><td>4.0579 us</td><td>5.6886 us</td><td>490.65 us</td><td>203.1250</td><td>-</td><td>938.16 KB</td>
+</tr><tr><td>Cached</td><td>1</td><td>100</td><td>36.97 us</td><td>0.3129 us</td><td>0.4487 us</td><td>36.87 us</td><td>14.3433</td><td>-</td><td>66.33 KB</td>
+</tr><tr><td>Uncached</td><td>1</td><td>1000</td><td>5,227.45 us</td><td>57.0294 us</td><td>83.5930 us</td><td>5,206.40 us</td><td>1945.3125</td><td>7.8125</td><td>8981.91 KB</td>
+</tr><tr><td>Cached</td><td>1</td><td>1000</td><td>259.87 us</td><td>4.8969 us</td><td>7.1778 us</td><td>258.08 us</td><td>93.2617</td><td>1.9531</td><td>431.95 KB</td>
+</tr><tr><td>Uncached</td><td>15</td><td>2</td><td>261.91 us</td><td>1.5081 us</td><td>2.1142 us</td><td>261.81 us</td><td>107.9102</td><td>-</td><td>497.7 KB</td>
+</tr><tr><td>Cached</td><td>15</td><td>2</td><td>114.61 us</td><td>0.7695 us</td><td>1.1035 us</td><td>114.50 us</td><td>42.7246</td><td>-</td><td>197.03 KB</td>
+</tr><tr><td>Uncached</td><td>15</td><td>100</td><td>4,311.67 us</td><td>28.6670 us</td><td>41.1134 us</td><td>4,322.30 us</td><td>1625.0000</td><td>-</td><td>7504.7 KB</td>
+</tr><tr><td>Cached</td><td>15</td><td>100</td><td>136.35 us</td><td>1.2681 us</td><td>1.8588 us</td><td>135.80 us</td><td>51.2695</td><td>-</td><td>236.84 KB</td>
+</tr><tr><td>Uncached</td><td>15</td><td>1000</td><td>41,217.42 us</td><td>243.2165 us</td><td>340.9555 us</td><td>41,138.47 us</td><td>15562.5000</td><td>62.5000</td><td>71854.7 KB</td>
+</tr><tr><td>Cached</td><td>15</td><td>1000</td><td>353.51 us</td><td>2.5183 us</td><td>3.7692 us</td><td>352.49 us</td><td>130.3711</td><td>-</td><td>602.47 KB</td>
+</tr><tr><td>Uncached</td><td>25</td><td>2</td><td>421.96 us</td><td>0.8855 us</td><td>1.0875 us</td><td>421.99 us</td><td>175.2930</td><td>-</td><td>808.72 KB</td>
+</tr><tr><td>Cached</td><td>25</td><td>2</td><td>185.79 us</td><td>1.1585 us</td><td>1.6981 us</td><td>185.61 us</td><td>69.0918</td><td>-</td><td>318.83 KB</td>
+</tr><tr><td>Uncached</td><td>25</td><td>100</td><td>6,784.07 us</td><td>45.5858 us</td><td>66.8190 us</td><td>6,768.20 us</td><td>2640.6250</td><td>-</td><td>12195.09 KB</td>
+</tr><tr><td>Cached</td><td>25</td><td>100</td><td>206.27 us</td><td>0.7544 us</td><td>1.0575 us</td><td>206.23 us</td><td>77.6367</td><td>-</td><td>358.64 KB</td>
+</tr><tr><td>Uncached</td><td>25</td><td>1000</td><td>69,387.11 us</td><td>2,011.7221 us</td><td>2,753.6679 us</td><td>67,828.26 us</td><td>25312.5000</td><td>62.5000</td><td>116763.84 KB</td>
+</tr><tr><td>Cached</td><td>25</td><td>1000</td><td>420.76 us</td><td>5.2321 us</td><td>7.8311 us</td><td>418.23 us</td><td>156.7383</td><td>0.4883</td><td>724.27 KB</td>
 </tr></tbody></table>
 </body>
 </html>
